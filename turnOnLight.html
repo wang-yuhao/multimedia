@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Turn On a Light</title>
+</head>
+<body>
+    <script>
+        function changelight(){
+            element = document.getElementById('myimage');
+            if(element.src.match("lightTurnOn")){
+                element.src="./image/lightTurnOff.png";
+            }
+            else{
+                element.src="./image/lightTurnOn.png";
+            }
+        }
+    </script>
+    <img id="myimage" onclick="changelight()" src="./image/lightTurnOff.png" width="100" height="180">
+    <p>click the bulb,then it will light or off!</p>
+</body>
+</html>

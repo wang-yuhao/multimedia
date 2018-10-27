@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Breakout 01:Interation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #div1 {
+            text-align: right;
+            -moz-transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate();
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="fruits">
+        <li>apple</li>
+        <li>Apricot</li>
+        <li>Avocado</li>
+    </ul>
+   
+
+    <script>
+        
+            const fruits = document.querySelectorAll('.fruits li');
+
+                fruits.forEach(function(li){
+                    const div = document.createElement('div');
+                    
+                    div.innerText = li.innerText;
+                    li.innerText = '1';
+                    li.appendChild(div);
+
+                });
+            
+             
+        
+    </script>
+
+</body>
+
+</html>
