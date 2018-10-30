@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+        <div id="inputArea">
+          <input type="text"
+                 id="text"
+                 placeholder="Your Text"/>
+          <input type="number"
+                 id="factor"
+                 placeholder="Factor"/>
+        </div>
+        <div id="output"></div>
+        <script>
+          // TODO repeat the text that's currently inside #text. #factor defines how often the text should be repeated.
+          function updateOutput(){
+            var text = document.getElementById("text").value;
+            var factor = parseInt(document.getElementById("factor").value);
+            var outputContainer = document.getElementById("output");
+            var htmlOut = "";
+            for(var i = 0; i < factor; i++){
+              htmlOut += text + "<br />";
+            }
+            outputContainer.innerHTML = htmlOut;
+          }
+          var inputs = document.querySelectorAll('input')
+          for(var i = 0; i < inputs.length; i++){
+            inputs[i].addEventListener('input',updateOutput);
+          }
+        
+        </script>
+        
+        </body>
+</html>

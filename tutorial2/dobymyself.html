@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form>
+            <input type="text" id=text1 placeholder="input text" name="user">
+            <button type="submit">GO!</button>
+    </form>
+    
+    <div id="output"></div>
+    <script>
+
+        var form=document.querySelector('form');
+        var userInput = document.querySelector('input[name=user]');
+        var output = document.querySelector('#output');
+
+
+        form,addEventListener('submit',function(e){
+            var params;
+            e.preventDefault();
+
+            params = JSON.stringify({user:userInput.value});
+            postJSON('http://httpbin.org/post',params);
+        })
+
+        function postJSON(url,params){
+            var req = new XMLHttpRequest();
+            req.open('post',url);
+            req.setRequestHeader('Content-Type','application/json');
+            req.onreadystatechange =function(){
+                if(req.readyState === 4){
+                    output.innerHTML = JSON.parse(req.responseText).json.user;
+                }
+            }
+            req.send(params);
+        }
+
+
+
+
+
+        /*function postJSON(url,callback,params) {
+            var req = new XMLHttpRequest();
+            req.open('post',url);
+            req.setRequestHeader('Content-Type','application/json');
+            req.onreadystatechange = function(){
+                if(req.readyState === 4){
+                    callback(JSON.parse(req.responseText));
+                }
+            }
+            req.send(params);
+        }
+
+        var form = document.querySelector('form');
+        var userInput = document.querySelector('input[name=user]');
+        var output = document.querySelector('#output');
+
+        form.addEventListener('submit',function(e){
+            var params;
+            e.preventDefault();
+
+            params = JSON.stringify({user:userInput.value});
+            postJSON('http://httpbin.org/post',function(res){
+                output.innerHTML = res.json.user;
+            },params)
+            });
+        
+    */
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="inputarea">
+        <input id="text" type="text" placeholder="yourtext" />
+        <input id="number" type="number" placeholder="factory" />
+    </div>
+    <div id="output"></div>
+    <script>
+        function outputcontains() {
+            var in_text = document.getElementById("text").value;
+            var in_number = parseInt(document.getElementById("number").value);
+            var outputs = document.getElementById("output");
+            var htmlOut = "";
+            for (i = 0; i < in_number; i++) {
+                htmlOut += in_text + "<br />";
+            }
+
+            outputs.innerHTML = htmlOut;
+        }
+
+        var inputs = document.querySelectorAll('input')
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].addEventListener('input', outputcontains);
+            document.getElementById("output").innerHTML=inputs.length;
+        }
+
+
+
+    </script>
+
+    </p>
+    </div>
+</body>
+
+</html>
