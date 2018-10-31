@@ -25,3 +25,8 @@ body,html{margin:auto;height:100%;}
 </div>  
 </body>
 </html>
+
+
+## 2.make image on center
+attribute: text-align,position,left etc.
+eg：../tutorial1/assignment01/task01.html.

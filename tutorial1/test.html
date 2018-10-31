@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+
+</head>
+<style>
+    
+    #div1{
+        text-align: center;
+        
+    }
+   
+    
+    #leftarrows{
+        width:100px;
+        height:100px;
+        /* float:left: can not use in this part, it will lead to two arrows load before the image */
+        margin-bottom: 400px;
+        position:relative;
+        left:-80px;
+        }
+    #rightarrows{
+        width:100px;
+        height:100px;
+        /* float:left: can not use in this part, it will lead to two arrows load before the image */
+        margin-bottom: 400px;
+        position:relative;
+        left:80px;
+    }
+    #texts{
+        position: absolute;
+        left:900px;
+        top:350px;
+        text-align: center;
+        font-size:40mm;
+        color: white;
+    }
+</style>
+
+<body>
+        <div id="div1">
+
+            <img src="../image/leftarrow.png"  alt="leftarrow" id="leftarrows" float="left" onclick="turnleft()" left="-80";>
+            <img src="../image/bg1.jpg" width="1300" height="870" float="left" id="centerimg" >
+            <span id="texts">1</span> 
+            <img src="../image/rightarrow.png"  id="rightarrows" float="left" alt="rightarrow" onclick="turnright()" left="80">
+        </div>
+        <script>
+            var flag = 1;
+           function turnleft(){
+               var centerimg = document.getElementById('centerimg');
+               var texts = document.getElementById('texts');
+               if(flag==1){
+                   alert("There are no more pictures!");
+               }
+               else if(flag == 2){
+                   flag = flag - 1;
+                   centerimg.src = "../image/bg1.jpg";
+               }else if(flag == 3){
+                flag = flag - 1;
+                centerimg.src = "../image/bg2.jpg";
+               }else if(flag == 4){
+                flag = flag - 1;
+                centerimg.src = "../image/bg3.jpg";
+               }
+               texts.innerHTML = flag;
+           }
+
+             function turnright(){
+                var centerimg = document.getElementById('centerimg');
+               if(flag==4){
+                   alert("there is no more!");
+               }
+               else if(flag == 3){
+                   flag = flag + 1;
+                   centerimg.src= "../image/bg4.jpg";
+               }else if(flag == 2){
+                flag = flag + 1;
+                centerimg.src= "../image/bg3.jpg";
+               }else if(flag == 1){
+                flag = flag + 1;
+                centerimg.src= "../image/bg2.jpg";
+               }
+               texts.innerHTML = flag;
+           }
+
+        </script>
+
+</body>
+
+</html>
