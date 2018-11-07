@@ -16,7 +16,7 @@
 }
 
 //usage:
-readTextFile("http://flobe-online.de/xml-proxy.php?url=http://feeds.feedburner.com/HowToGeek", function(text){
+readTextFile("xml-proxy.json", function(text){
     var data = JSON.parse(text);
     console.log(data);
 });

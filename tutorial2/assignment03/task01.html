@@ -5,18 +5,28 @@
         background: rgba(68, 127, 236, 0.986);
         color: white;
         font-size: 20;
+        /* text-align: center; */
+    }
+    #playbutton{
+        height:10mm;
+        width: 10mm;
+        position: absolute;
+        left:950px;
+        top:23px;
+        /* text-align: center; */
     }
 </style>
 
 <body>
     <h1>
-        <div id="div_title">RSS Ticker
+        <div id="div_title">&nbsp;&nbsp; RSS Ticker &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
             <span id="title"></span>
+            <img src="run.jpg" id="playbutton" alt="run" onclick="change_state()" float="left" >
         </div>
     </h1>
     <div>
-        <b>link:</b> <span id="link"></span><br>
-        <b>From:</b> <span id="from"></span><br>
+        <a href="http://www.runoob.com/" id="link">Continue reading</a><br>
+        <b>From:</b> <span id="description"></span><br>
         <b>Message:</b> <span id="message"></span>
     </div>
 
@@ -29,16 +39,17 @@
         }
         xmlhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
-                xmlDoc = JSON.parse(this.responseText);
+                xmlDoc = xmlhttp.responseText;
+                xmlDocJson = JSON.parse(xmlDoc);
                 // xmlDoc = xmlhttp.responseXML;
                 document.getElementById("title").innerHTML =
-                    xmlDoc[0].title;
-                document.getElementById("link").innerHTML =
-                    xmlDoc.getElementsByTagName("link")[0].childNodes[0].nodeValue;
-                document.getElementById("from").innerHTML =
-                    xmlDoc.getElementsByTagName("from")[0].childNodes[0].nodeValue;
+                    xmlDocJson.channel.title;
+                    setlink = xmlDocJson.channel.link ;
+                document.getElementById("link").setAttribute("href",setlink);
+                document.getElementById("description").innerHTML =
+                    xmlDocJson.channel.description;
                 document.getElementById("message").innerHTML =
-                    xmlDoc.getElementsByTagName("body")[0].childNodes[0].nodeValue;
+                     xmlDocJson.channel.pubDate;
             }
         };
         xmlhttp.open("GET", "http://flobe-online.de/xml-proxy.php?url=http://feeds.feedburner.com/HowToGeek", false);

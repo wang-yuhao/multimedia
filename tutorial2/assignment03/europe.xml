@@ -1,85 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/" 
+	xmlns:dc="http://purl.org/dc/elements/1.1/" 
+	xmlns:atom="http://www.w3.org/2005/Atom" 
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
 
-<channel>
-	<title>Europe – TechCrunch</title>
-	
-	<link>https://techcrunch.com</link>
-	<description>Startup and Technology News</description>
-	<lastBuildDate>Tue, 06 Nov 2018 13:53:39 +0000</lastBuildDate>
-	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<channel>
+		<title>Europe – TechCrunch</title>
 
-<image>
-	<url>https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32</url>
-	<title>Europe – TechCrunch</title>
-	<link>https://techcrunch.com</link>
-	<width>32</width>
-	<height>32</height>
-</image> 
-<site xmlns="com-wordpress:feed-additions:1">136296444</site>	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/techcrunch/europe" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="techcrunch/europe" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
-		<title>Engineer.ai raises $29.5M Series A for its AI+Humans software building platform</title>
-		<link>https://techcrunch.com/2018/11/06/engineer-ai-raises-29-5m-series-a-for-its-aihumans-software-building-platform/</link>
-		<comments>https://techcrunch.com/2018/11/06/engineer-ai-raises-29-5m-series-a-for-its-aihumans-software-building-platform/#comments</comments>
-		<pubDate>Tue, 06 Nov 2018 13:24:45 +0000</pubDate>
-		<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
-				<category><![CDATA[Europe]]></category>
-		<category><![CDATA[TC]]></category>
+		<link>https://techcrunch.com</link>
+		<description>Startup and Technology News</description>
+		<lastBuildDate>Tue, 06 Nov 2018 13:53:39 +0000</lastBuildDate>
+		<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<generator>https://wordpress.org/?v=4.9.8</generator>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1742478</guid>
-		<description><![CDATA[SF-based Engineer.ai launched in an invite-only manner two and a half years ago, bootstrapped by its founders. Its platform combines AI with crowdsourced teams of designers and developers to build bespoke digital products at – they say – twice the speed and less than a third of the cost of traditional software development. Today it’s [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">SF-based <a href="http://Engineer.ai">Engineer.ai</a> launched in an invite-only manner two and a half years ago, bootstrapped by its founders. Its platform combines AI with crowdsourced teams of designers and developers to build bespoke digital products at – they say – twice the speed and less than a third of the cost of traditional software development.</p>
+		<image>
+			<url>https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32</url>
+			<title>Europe – TechCrunch</title>
+			<link>https://techcrunch.com</link>
+			<width>32</width>
+			<height>32</height>
+		</image>
+		<site xmlns="com-wordpress:feed-additions:1">136296444</site>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/techcrunch/europe" />
+		<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="techcrunch/europe" />
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+		<item>
+			<title>Engineer.ai raises $29.5M Series A for its AI+Humans software building platform</title>
+			<link>https://techcrunch.com/2018/11/06/engineer-ai-raises-29-5m-series-a-for-its-aihumans-software-building-platform/</link>
+			<comments>https://techcrunch.com/2018/11/06/engineer-ai-raises-29-5m-series-a-for-its-aihumans-software-building-platform/#comments</comments>
+			<pubDate>Tue, 06 Nov 2018 13:24:45 +0000</pubDate>
+			<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[TC]]></category>
+
+			<guid isPermaLink="false">https://techcrunch.com/?p=1742478</guid>
+			<description><![CDATA[SF-based Engineer.ai launched in an invite-only manner two and a half years ago, bootstrapped by its founders. Its platform combines AI with crowdsourced teams of designers and developers to build bespoke digital products at – they say – twice the speed and less than a third of the cost of traditional software development. Today it’s [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">SF-based <a href="http://Engineer.ai">Engineer.ai</a> launched in an invite-only manner two and a half years ago, bootstrapped by its founders. Its platform combines AI with crowdsourced teams of designers and developers to build bespoke digital products at – they say – twice the speed and less than a third of the cost of traditional software development.</p>
 <p>Today it’s announced at Web Summit that its raised one of Europe’s largest Series A investments at $29.5 million, led by Lakestar and Jungle Ventures with participation from Softbank’s DeepCore. The round is among Europe’s largest A-rounds to date.</p>
 <p>Engineer.ai’s “Builder” product breaks projects into small &#8216;building blocks&#8217; of re-usable features that are customized by human engineers all over the world, making the process cheaper than the average process.</p>
 <p>Sachin Dev Duggal, founder, said in a statement: &#8220;We created Engineer.ai so that everyone can build an idea without learning to code. This investment round validates our approach of making bespoke software effortless. The capital comes at a time of rapid growth and will propel the platform into the mainstream, allowing Builder to open the door for entire categories of companies that could not consider it before.”</p>
 <p>Dev Duggal added: &#8220;At a certain level we compete with Gigster albeit we have really taken a very different approach (assembly line and buying excess capacity from over 100 Dev shops in 10 timezones) whereas they are a modern day consulting shop. This means we have massive scale with access to 32,000 devs and designers, we have over 500 building blocks that save our customers paying for features (code and designs) that we have already done. The dev shops thus also don&#8217;t compete with us as we buy capacity from them and will soon be offering them a way to partner on goto market.&#8221;</p>
 <p>Amit Anand, Co-Founder &amp; Managing Partner at Jungle Ventures said: &#8220;We’re believers in Engineer.ai’s total ecosystem; making Bespoke Software like the iPhone with aftercare and a marketplace for all recurring services.”</p>
 <p>Launched in June 2018, Engineer.ai has been used to create products like BBC, DiditFor, Manscore, and ZikTruck.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/11/06/engineer-ai-raises-29-5m-series-a-for-its-aihumans-software-building-platform/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1742478</post-id>	</item>
+			<slash:comments>1</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1742478</post-id>
+		</item>
 		<item>
-		<title>Aiden.ai raises a $1.6M seed round for its AI marketing analyst</title>
-		<link>https://techcrunch.com/2018/11/06/aiden-ai-raises-a-1-6m-seed-round-for-its-ai-marketing-analyst/</link>
-		<comments>https://techcrunch.com/2018/11/06/aiden-ai-raises-a-1-6m-seed-round-for-its-ai-marketing-analyst/#respond</comments>
-		<pubDate>Tue, 06 Nov 2018 08:01:39 +0000</pubDate>
-		<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
-				<category><![CDATA[Europe]]></category>
-		<category><![CDATA[TC]]></category>
-		<category><![CDATA[Partech]]></category>
-		<category><![CDATA[Sophia Bendz]]></category>
+			<title>Aiden.ai raises a $1.6M seed round for its AI marketing analyst</title>
+			<link>https://techcrunch.com/2018/11/06/aiden-ai-raises-a-1-6m-seed-round-for-its-ai-marketing-analyst/</link>
+			<comments>https://techcrunch.com/2018/11/06/aiden-ai-raises-a-1-6m-seed-round-for-its-ai-marketing-analyst/#respond</comments>
+			<pubDate>Tue, 06 Nov 2018 08:01:39 +0000</pubDate>
+			<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[TC]]></category>
+			<category><![CDATA[Partech]]></category>
+			<category><![CDATA[Sophia Bendz]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1742365</guid>
-		<description><![CDATA[Aiden.ai, a London based AI analytics startup, has raised a $1.6M seed round to develop its &#8220;AI-powered marketing analyst” which, they claim, is like having an extra person on the marketing team for mobile apps. The round has been led by Partech. Other investors include Sophia Bendz, who previously led marketing at Spotify and Nicolas [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary"><a href="http://Aiden.ai">Aiden.ai</a>, a London based AI analytics startup, has raised a $1.6M seed round to develop its &#8220;AI-powered marketing analyst” which, they claim, is like having an extra person on the marketing team for mobile apps. The round has been led by Partech. Other investors include Sophia Bendz, who previously led marketing at Spotify and Nicolas Pinto, founder of Perceptio, acquired by Apple.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1742365</guid>
+			<description><![CDATA[Aiden.ai, a London based AI analytics startup, has raised a $1.6M seed round to develop its &#8220;AI-powered marketing analyst” which, they claim, is like having an extra person on the marketing team for mobile apps. The round has been led by Partech. Other investors include Sophia Bendz, who previously led marketing at Spotify and Nicolas [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary"><a href="http://Aiden.ai">Aiden.ai</a>, a London based AI analytics startup, has raised a $1.6M seed round to develop its &#8220;AI-powered marketing analyst” which, they claim, is like having an extra person on the marketing team for mobile apps. The round has been led by Partech. Other investors include Sophia Bendz, who previously led marketing at Spotify and Nicolas Pinto, founder of Perceptio, acquired by Apple.</p>
 <p>This last round brings Aiden.ai’s total funding to $2.3m, after an initial pre-seed round of $750,000 <a href="https://techcrunch.com/2017/03/29/aiden-closes-750000-seed-round-in-its-quest-to-amplify-marketers/">in March 2017</a>.</p>
 <p>Aiden.ai is also coming out the gate with its full product. Designed for mobile app marketers, Aiden says it uses machine reading to analyze large sets of paid advertising data, and proactively make changes to improve ROI.</p>
 <p>Instead of using manual dashboards for data, the idea is to provide a simplified experience to help marketers manage their multichannel paid acquisition campaigns and make the most of their investments.</p>
 <p>Marie Outtier, CEO, said: “Today’s performance marketers are bogged down with data coming from multiple sources.” She said this is &#8220;a new generation of software, one that listens, learns and acts.”</p>
 <p>Reza Malekzadeh, partner at <a class="crunchbase-link" href="https://crunchbase.com/organization/partech-international" target="_blank" data-type="organization" data-entity="partech-international">Partech <span class="crunchbase-tooltip-indicator"></span></a> said: “We believe Aiden.ai is building an innovative solution for marketers at precisely the time it is needed most. Marie and PJ&#8217;s vision for the future of data and analytics harnesses the recent advances in the fields of machine learning and natural language processing to create a tool that is set to change the way marketers do their job.&#8221;</p>
 <p>The company was co-founded by Outtier who has a background in mobile marketing and technology and PJ Camillieri (CTO) who previously spent 10 years at Apple working on Natural Language Processing and virtual assistants.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/11/06/aiden-ai-raises-a-1-6m-seed-round-for-its-ai-marketing-analyst/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1742365</post-id>	</item>
+			<slash:comments>0</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1742365</post-id>
+		</item>
 		<item>
-		<title>Reverso launches synonyms app and service</title>
-		<link>https://techcrunch.com/2018/11/05/reverso-launches-synonyms-app-and-service/</link>
-		<comments>https://techcrunch.com/2018/11/05/reverso-launches-synonyms-app-and-service/#comments</comments>
-		<pubDate>Mon, 05 Nov 2018 11:59:20 +0000</pubDate>
-		<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
-				<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[France Newsletter]]></category>
-		<category><![CDATA[reverso]]></category>
+			<title>Reverso launches synonyms app and service</title>
+			<link>https://techcrunch.com/2018/11/05/reverso-launches-synonyms-app-and-service/</link>
+			<comments>https://techcrunch.com/2018/11/05/reverso-launches-synonyms-app-and-service/#comments</comments>
+			<pubDate>Mon, 05 Nov 2018 11:59:20 +0000</pubDate>
+			<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
+			<category><![CDATA[Apps]]></category>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Startups]]></category>
+			<category><![CDATA[France Newsletter]]></category>
+			<category><![CDATA[reverso]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1741877</guid>
-		<description><![CDATA[Language learning company Reverso is launching a new product on the web and mobile. Reverso Synonyms is a thesaurus service that lets you learn new words and improve your vocabulary. You may have found this feature in the main Reverso translation app already. If you translate a word or a group of words, there’s a [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">Language learning company <a href="http://context.reverso.net/">Reverso</a> is launching a new product on the <a href="https://synonyms.reverso.net/synonym/en/">web</a> and <a href="https://itunes.apple.com/us/app/reverso-synonyms-dictionary/id1374777218">mobile</a>. <a href="https://synonyms.reverso.net/synonym/">Reverso Synonyms</a> is a thesaurus service that lets you learn new words and improve your vocabulary.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1741877</guid>
+			<description><![CDATA[Language learning company Reverso is launching a new product on the web and mobile. Reverso Synonyms is a thesaurus service that lets you learn new words and improve your vocabulary. You may have found this feature in the main Reverso translation app already. If you translate a word or a group of words, there’s a [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">Language learning company <a href="http://context.reverso.net/">Reverso</a> is launching a new product on the <a href="https://synonyms.reverso.net/synonym/en/">web</a> and <a href="https://itunes.apple.com/us/app/reverso-synonyms-dictionary/id1374777218">mobile</a>. <a href="https://synonyms.reverso.net/synonym/">Reverso Synonyms</a> is a thesaurus service that lets you learn new words and improve your vocabulary.</p>
 <p>You may have found this feature in the main <a class="crunchbase-link" href="https://crunchbase.com/organization/reverso" target="_blank" data-type="organization" data-entity="reverso">Reverso <span class="crunchbase-tooltip-indicator"></span></a> translation app already. If you translate a word or a group of words, there’s a tiny “S” button in the corner. It lets you access related words directly from the translation app.</p>
 <p>But this was just a soft rollout, as the company is now expanding this feature into a full-fledged service. Reverso Synonyms works with a dozen languages, including English, French, Spanish…</p>
 <p>It’s a pretty straightforward product. You can type a word and get a bunch of synonyms. You get examples and you can load the word definition for more details. You can also tap on any word to double-check the meaning.</p>
@@ -87,33 +99,34 @@
 <p>Even more interesting than the product itself, Reverso came up with an interesting way to build a huge database in no time. Given that the company has been working for years on translation dictionaries, the company tapped this data to create a basic version of this new product.</p>
 <p>There are 2 billion bilingual dictionary entries in Reverso Context. If two words have the same translation in multiple languages, chances are that they mean the same thing. Of course, this data has been adjusted since then with a refined algorithm and some human curation.</p>
 <p>While Google Translate is still quite dominant in the dictionary space, Reverso manages to attract tens of millions of users every month, generating 450 million page views on the web alone. It’s an interesting startup story in a monopolistic space. While translation dictionaries will probably remain Reverso’s main product, it’s good to see some new features.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/11/05/reverso-launches-synonyms-app-and-service/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1741877</post-id>	</item>
+			<slash:comments>2</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1741877</post-id>
+		</item>
 		<item>
-		<title>UK to probe fairness of personalized pricing practices in online retail</title>
-		<link>https://techcrunch.com/2018/11/05/uk-to-probe-fairness-of-personalized-pricing-practices-in-online-retail/</link>
-		<comments>https://techcrunch.com/2018/11/05/uk-to-probe-fairness-of-personalized-pricing-practices-in-online-retail/#comments</comments>
-		<pubDate>Mon, 05 Nov 2018 10:38:24 +0000</pubDate>
-		<dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
-				<category><![CDATA[eCommerce]]></category>
-		<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Government]]></category>
-		<category><![CDATA[competition]]></category>
-		<category><![CDATA[Financial Conduct Authority]]></category>
-		<category><![CDATA[online retail]]></category>
-		<category><![CDATA[online shopping]]></category>
-		<category><![CDATA[personalized pricing]]></category>
-		<category><![CDATA[Pricing]]></category>
-		<category><![CDATA[retail]]></category>
-		<category><![CDATA[search engines]]></category>
-		<category><![CDATA[UK government]]></category>
-		<category><![CDATA[United Kingdom]]></category>
+			<title>UK to probe fairness of personalized pricing practices in online retail</title>
+			<link>https://techcrunch.com/2018/11/05/uk-to-probe-fairness-of-personalized-pricing-practices-in-online-retail/</link>
+			<comments>https://techcrunch.com/2018/11/05/uk-to-probe-fairness-of-personalized-pricing-practices-in-online-retail/#comments</comments>
+			<pubDate>Mon, 05 Nov 2018 10:38:24 +0000</pubDate>
+			<dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
+			<category><![CDATA[eCommerce]]></category>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Government]]></category>
+			<category><![CDATA[competition]]></category>
+			<category><![CDATA[Financial Conduct Authority]]></category>
+			<category><![CDATA[online retail]]></category>
+			<category><![CDATA[online shopping]]></category>
+			<category><![CDATA[personalized pricing]]></category>
+			<category><![CDATA[Pricing]]></category>
+			<category><![CDATA[retail]]></category>
+			<category><![CDATA[search engines]]></category>
+			<category><![CDATA[UK government]]></category>
+			<category><![CDATA[United Kingdom]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1741849</guid>
-		<description><![CDATA[The UK government has announced an investigation into personalized pricing practices in online retail following growing concerns that vulnerable consumers are at risk of price discrimination through the use of ecommerce technologies that vary prices for products such as cars, holidays and household goods via the use of personal data points. The Competition Markets Authority (CMA) will [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">The UK government has announced an investigation into personalized pricing practices in online retail following growing concerns that vulnerable consumers are at risk of price discrimination through the use of <span style="font-size: 1.125rem; letter-spacing: -0.1px;">ecommerce technologies that vary prices for products such as cars, holidays and household goods via the use of personal data points.</span></p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1741849</guid>
+			<description><![CDATA[The UK government has announced an investigation into personalized pricing practices in online retail following growing concerns that vulnerable consumers are at risk of price discrimination through the use of ecommerce technologies that vary prices for products such as cars, holidays and household goods via the use of personal data points. The Competition Markets Authority (CMA) will [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">The UK government has announced an investigation into personalized pricing practices in online retail following growing concerns that vulnerable consumers are at risk of price discrimination through the use of <span style="font-size: 1.125rem; letter-spacing: -0.1px;">ecommerce technologies that vary prices for products such as cars, holidays and household goods via the use of personal data points.</span></p>
 <p>The Competition Markets Authority (CMA) will also be involved in the research, which was <a href="https://www.gov.uk/government/news/government-and-cma-to-research-targeting-of-consumers-through-personalised-pricing">announced</a> yesterday.</p>
 <p>The government-commissioned research is intended to investigate how widespread the practice of personalized online pricing is; how businesses are applying it through different mediums like search engines, apps or comparison tools; and the extent to which it is preventing shoppers getting the best deals, the CMA said.</p>
 <p>Commenting in a statement, business secretary Greg Clark said: &#8220;UK businesses are leading the way in harnessing the power of new technologies and new ways of doing business, benefitting consumers and helping them save money. But we are clear that companies should not be abusing this technology and customer data to treat consumers, particularly vulnerable ones, unfairly.</p>
@@ -124,24 +137,25 @@
 <p>The UK&#8217;s <a class="crunchbase-link" href="https://crunchbase.com/organization/financial-conduct-authority" target="_blank" data-type="organization" data-entity="financial-conduct-authority">Financial Conduct Authority <span class="crunchbase-tooltip-indicator"></span></a> (FCA) has also announced it will be investigating personalised pricing for car and home insurance policies &#8212; after <a href="https://www.fca.org.uk/news/press-releases/fca-launches-general-insurance-market-study">finding hidden discrimination between customers</a>.</p>
 <p>At the end of last month the FCA said its initial work had identified a number of areas of potential consumer harm &#8212; announcing a market study to take a closer look at the outcomes from general insurance pricing practices and make a determination on whether and if so how it should intervene to improve the market.</p>
 <p>That market study is focused on: the consumer outcomes from pricing practices; the fairness of outcomes from pricing practices; the impact of pricing practices on competition; and remedies to address any harm that the FCA finds.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/11/05/uk-to-probe-fairness-of-personalized-pricing-practices-in-online-retail/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1741849</post-id>	</item>
+			<slash:comments>1</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1741849</post-id>
+		</item>
 		<item>
-		<title>Atomico promotes Sophia Bendz to Partner where she’ll focus on Nordic investments</title>
-		<link>https://techcrunch.com/2018/11/05/sophia-bendz/</link>
-		<comments>https://techcrunch.com/2018/11/05/sophia-bendz/#comments</comments>
-		<pubDate>Mon, 05 Nov 2018 09:00:40 +0000</pubDate>
-		<dc:creator><![CDATA[Steve O'Hear]]></dc:creator>
-				<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Europe]]></category>
-		<category><![CDATA[TC]]></category>
-		<category><![CDATA[Atomico]]></category>
+			<title>Atomico promotes Sophia Bendz to Partner where she’ll focus on Nordic investments</title>
+			<link>https://techcrunch.com/2018/11/05/sophia-bendz/</link>
+			<comments>https://techcrunch.com/2018/11/05/sophia-bendz/#comments</comments>
+			<pubDate>Mon, 05 Nov 2018 09:00:40 +0000</pubDate>
+			<dc:creator><![CDATA[Steve O'Hear]]></dc:creator>
+			<category><![CDATA[Apps]]></category>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[TC]]></category>
+			<category><![CDATA[Atomico]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1741560</guid>
-		<description><![CDATA[&#8220;I was hired when I was 8 months pregnant, so kudos to Niklas for betting on someone who was pregnant,&#8221; Sophia Bendz tells me. &#8220;That meant I was working a couple of hours per week in my first year and then I ramped up my engagement and now I&#8217;m at a point where I&#8217;m fully [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">&#8220;I was hired when I was 8 months pregnant, so kudos to Niklas for betting on someone who was pregnant,&#8221; Sophia Bendz tells me. &#8220;That meant I was working a couple of hours per week in my first year and then I ramped up my engagement and now I&#8217;m at a point where I&#8217;m fully committed. So it feels like it&#8217;s been a sort of organic journey that has happened&#8221;.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1741560</guid>
+			<description><![CDATA[&#8220;I was hired when I was 8 months pregnant, so kudos to Niklas for betting on someone who was pregnant,&#8221; Sophia Bendz tells me. &#8220;That meant I was working a couple of hours per week in my first year and then I ramped up my engagement and now I&#8217;m at a point where I&#8217;m fully [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">&#8220;I was hired when I was 8 months pregnant, so kudos to Niklas for betting on someone who was pregnant,&#8221; Sophia Bendz tells me. &#8220;That meant I was working a couple of hours per week in my first year and then I ramped up my engagement and now I&#8217;m at a point where I&#8217;m fully committed. So it feels like it&#8217;s been a sort of organic journey that has happened&#8221;.</p>
 <p>The former Spotify Global Director of Marketing (and Spotify employee no.9) is being unveiled as the newest Partner at venture capital firm <a class="crunchbase-link" href="https://crunchbase.com/organization/atomico" target="_blank" data-type="organization" data-entity="atomico">Atomico <span class="crunchbase-tooltip-indicator"></span></a>. For the last two and a half years, she&#8217;s been Executive-in-Residence at the London-based venture capital firm co-founded by Skype founder <a href="https://techcrunch.com/2018/09/28/zennstroms-revolution/">Niklas Zennström</a>, helping portfolio companies with marketing strategy and recruitment.</p>
 <p>Since 2011, Bendz, who is Swedish, has also been an increasingly active angel investor in the Nordics region, where she&#8217;ll be tasked with sourcing deal-flow for Atomico. Companies that she has angel invested include Tictail, Joint Academy, Engaging Care, Bokio, Karma, Hedvig, Simple Feast, and Sana Labs, among others.</p>
 <p>Bendz says that she was first introduced to Zennström through her work with <a href="https://techcrunch.com/2018/10/23/goeuro-raises-150-million-for-its-travel-aggregator/">GoEuro</a>, one of Atomico&#8217;s portfolio companies. She was helping the mobility company distill its mission into a coherent marketing message that could be more easily articulated both internally and externally, the type of help that would have been of benefit in the early days of Spotify and that Zennström recognised could be of huge value to other startups in the Atomico portfolio.</p>
@@ -155,29 +169,30 @@
 <p>&#8220;I&#8217;m a passionate about it and I do whatever I can to support female entrepreneurs and operators and investors; I myself have benefited hugely from having a huge support network of amazing women,&#8221; the Atomico partner replies. &#8220;And I&#8217;m not a big fan of just complaining about it, I rather want to do things about it. So, you know, looking into how we can scale it. That is something I&#8217;m passionate about and I definitely think it&#8217;s easier for a female entrepreneur to ping me and ask for, you know, 25 minutes of coffee and pitching her idea to me rather than someone who is an older man&#8221;.</p>
 <hr />
 <p><em>Sophia Bendz will be on-stage at TechCrunch Disrupt Berlin <a href="https://techcrunch.com/events/disrupt-berlin-2018/?ref=rightrailpromo#tickets">later this month</a>, more details to follow.</em></p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/11/05/sophia-bendz/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1741560</post-id>	</item>
+			<slash:comments>2</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1741560</post-id>
+		</item>
 		<item>
-		<title>Credit Karma acquires Noddle from TransUnion and expands to the UK</title>
-		<link>https://techcrunch.com/2018/11/04/credit-karma-acquires-noddle-from-transunion-and-expands-to-the-uk/</link>
-		<comments>https://techcrunch.com/2018/11/04/credit-karma-acquires-noddle-from-transunion-and-expands-to-the-uk/#comments</comments>
-		<pubDate>Mon, 05 Nov 2018 07:10:36 +0000</pubDate>
-		<dc:creator><![CDATA[Ingrid Lunden]]></dc:creator>
-				<category><![CDATA[eCommerce]]></category>
-		<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Finance]]></category>
-		<category><![CDATA[Fundings & Exits]]></category>
-		<category><![CDATA[TC]]></category>
-		<category><![CDATA[Credit Karma]]></category>
-		<category><![CDATA[credit scoring]]></category>
-		<category><![CDATA[financial services]]></category>
-		<category><![CDATA[transunion]]></category>
+			<title>Credit Karma acquires Noddle from TransUnion and expands to the UK</title>
+			<link>https://techcrunch.com/2018/11/04/credit-karma-acquires-noddle-from-transunion-and-expands-to-the-uk/</link>
+			<comments>https://techcrunch.com/2018/11/04/credit-karma-acquires-noddle-from-transunion-and-expands-to-the-uk/#comments</comments>
+			<pubDate>Mon, 05 Nov 2018 07:10:36 +0000</pubDate>
+			<dc:creator><![CDATA[Ingrid Lunden]]></dc:creator>
+			<category><![CDATA[eCommerce]]></category>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Finance]]></category>
+			<category><![CDATA[Fundings & Exits]]></category>
+			<category><![CDATA[TC]]></category>
+			<category><![CDATA[Credit Karma]]></category>
+			<category><![CDATA[credit scoring]]></category>
+			<category><![CDATA[financial services]]></category>
+			<category><![CDATA[transunion]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1741799</guid>
-		<description><![CDATA[Credit Karma, the US startup with 85 million users that offers credit reports and a platform to browse and buy other financial services, has made an acquisition to help it kick-start its first overseas expansion beyond the US and Canada: it has acquired Noddle, a UK-based credit reporting service with 4 million users, from TransUnion. [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary"><a href="http://creditkarma.com">Credit Karma</a>, the US startup with 85 million users that offers credit reports and a platform to browse and buy other financial services, has made an acquisition to help it kick-start its first overseas expansion beyond the US and Canada: it has acquired <a href="https://www.noddle.co.uk">Noddle</a>, a UK-based credit reporting service with 4 million users, from <a href="http://transunion.com">TransUnion</a>.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1741799</guid>
+			<description><![CDATA[Credit Karma, the US startup with 85 million users that offers credit reports and a platform to browse and buy other financial services, has made an acquisition to help it kick-start its first overseas expansion beyond the US and Canada: it has acquired Noddle, a UK-based credit reporting service with 4 million users, from TransUnion. [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary"><a href="http://creditkarma.com">Credit Karma</a>, the US startup with 85 million users that offers credit reports and a platform to browse and buy other financial services, has made an acquisition to help it kick-start its first overseas expansion beyond the US and Canada: it has acquired <a href="https://www.noddle.co.uk">Noddle</a>, a UK-based credit reporting service with 4 million users, from <a href="http://transunion.com">TransUnion</a>.</p>
 <p>Financial terms of the deal are not being disclosed, but Valerie Wagoner, <a class="crunchbase-link" href="https://crunchbase.com/organization/credit-karma" target="_blank" data-type="organization" data-entity="credit-karma">Credit Karma&#8217;s <span class="crunchbase-tooltip-indicator"></span></a> VP of International (who had previously been at <a href="https://techcrunch.com/2016/09/20/twitter-lays-off-around-20-shuts-down-engineering-office-in-bangalore-india/">Twitter</a>), said that it will be a full acquisition of tech and employees &#8212; 35 in all &#8212; and TransUnion is not taking any stake in Credit Karma as part of this deal, although the two will continue to work together with <a class="crunchbase-link" href="https://crunchbase.com/organization/transunion" target="_blank" data-type="organization" data-entity="transunion">TransUnion <span class="crunchbase-tooltip-indicator"></span></a> providing data to Credit Karma, as it had done before.</p>
 <p>As a point of reference &#8212; and a sign of the consolidation and competition in the market &#8212; earlier this year <a href="https://techcrunch.com/2018/03/15/experian-acquires-uks-clearscore-and-its-financial-product-matching-engine-for-385m/">Experian acquired another credit scoring service</a> in the UK, ClearScore, for the equivalent of $385 million. That service has 6 million users compared to Noddle&#8217;s 4 million. Competition authorities are still investigating that deal, and Credit Karma&#8217;s will also have to get the pass from regulators before closing.</p>
 <p>Credit Karma <a href="http://techcrunch.com/2018/03/28/silver-lake-is-buying-a-500m-stake-in-credit-karma-in-a-massive-secondary-round/">raised $500 million</a> in a secondary round earlier this year that valued it at $4 billion, specifically to help fuel its growth, and that&#8217;s what it has been doing. (It also <a href="http://techcrunch.com/2018/08/16/credit-karma-acquires-mortgage-platform-approved/">acquired mortgage platform Approved</a> in August.)</p>
@@ -195,44 +210,45 @@
 <p>But &#8220;it is a sign that Noddle cares about that mission and is a great fit for the Credit Karma family family.&#8221;  No word on when that product will make its way to the Credit Karma service elsewhere, but that is on the roadmap she said.</p>
 <p>It will be worth watching to see whether Credit Karma uses this acquisition as a template for how it will enter new markets, or whether it will look to organic expansion elsewhere. The company, we&#8217;d <a href="https://techcrunch.com/2015/06/23/credit-karma-has-raised-175m-on-a-valuation-of-3-5b/">reported back in 2015</a>, had been eyeing an IPO within two years. The company is profitable, and we&#8217;ve been seeing a strong market for public offerings from tech companies, although for now it looks like the company is focused on creating more diverse revenue streams before taking further steps.</p>
 <p>&nbsp;</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/11/04/credit-karma-acquires-noddle-from-transunion-and-expands-to-the-uk/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1741799</post-id>	</item>
+			<slash:comments>1</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1741799</post-id>
+		</item>
 		<item>
-		<title>Campaign tool supplied to UK’s governing party by Trump-Pence app dev quietly taken out of service — thanks to GDPR</title>
-		<link>https://techcrunch.com/2018/11/01/campaign-tool-supplied-to-uks-governing-party-by-trump-pence-app-dev-quietly-taken-out-of-service/</link>
-		<comments>https://techcrunch.com/2018/11/01/campaign-tool-supplied-to-uks-governing-party-by-trump-pence-app-dev-quietly-taken-out-of-service/#comments</comments>
-		<pubDate>Thu, 01 Nov 2018 18:25:59 +0000</pubDate>
-		<dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
-				<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Government]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Social]]></category>
-		<category><![CDATA[Cambridge Analytica]]></category>
-		<category><![CDATA[Conservative Campaigner]]></category>
-		<category><![CDATA[Conservative Party]]></category>
-		<category><![CDATA[data protection]]></category>
-		<category><![CDATA[DCMS committee]]></category>
-		<category><![CDATA[digital media]]></category>
-		<category><![CDATA[electoral law]]></category>
-		<category><![CDATA[european union]]></category>
-		<category><![CDATA[Facebook]]></category>
-		<category><![CDATA[General Election]]></category>
-		<category><![CDATA[information commissioner's office]]></category>
-		<category><![CDATA[Malta]]></category>
-		<category><![CDATA[privacy]]></category>
-		<category><![CDATA[republican national committee]]></category>
-		<category><![CDATA[social media]]></category>
-		<category><![CDATA[social network]]></category>
-		<category><![CDATA[terms of service]]></category>
-		<category><![CDATA[uCampaign]]></category>
-		<category><![CDATA[United Kingdom]]></category>
+			<title>Campaign tool supplied to UK’s governing party by Trump-Pence app dev quietly taken out of service — thanks to GDPR</title>
+			<link>https://techcrunch.com/2018/11/01/campaign-tool-supplied-to-uks-governing-party-by-trump-pence-app-dev-quietly-taken-out-of-service/</link>
+			<comments>https://techcrunch.com/2018/11/01/campaign-tool-supplied-to-uks-governing-party-by-trump-pence-app-dev-quietly-taken-out-of-service/#comments</comments>
+			<pubDate>Thu, 01 Nov 2018 18:25:59 +0000</pubDate>
+			<dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
+			<category><![CDATA[Apps]]></category>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Government]]></category>
+			<category><![CDATA[Privacy]]></category>
+			<category><![CDATA[Social]]></category>
+			<category><![CDATA[Cambridge Analytica]]></category>
+			<category><![CDATA[Conservative Campaigner]]></category>
+			<category><![CDATA[Conservative Party]]></category>
+			<category><![CDATA[data protection]]></category>
+			<category><![CDATA[DCMS committee]]></category>
+			<category><![CDATA[digital media]]></category>
+			<category><![CDATA[electoral law]]></category>
+			<category><![CDATA[european union]]></category>
+			<category><![CDATA[Facebook]]></category>
+			<category><![CDATA[General Election]]></category>
+			<category><![CDATA[information commissioner's office]]></category>
+			<category><![CDATA[Malta]]></category>
+			<category><![CDATA[privacy]]></category>
+			<category><![CDATA[republican national committee]]></category>
+			<category><![CDATA[social media]]></category>
+			<category><![CDATA[social network]]></category>
+			<category><![CDATA[terms of service]]></category>
+			<category><![CDATA[uCampaign]]></category>
+			<category><![CDATA[United Kingdom]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1740712</guid>
-		<description><![CDATA[An app that the UK&#8217;s governing party launched last year &#8212; for Conservative Party activists to gamify, &#8216;socialize&#8217; and co-ordinate their campaigning activity &#8212; has been quietly pulled from app stores. Its vanishing was flagged to us earlier today, by Twitter user Sarah Parks, who noticed that, when loaded, the Campaigner app now displays a message informing users [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">An app that the UK&#8217;s governing party <a href="https://www.conservativehome.com/parliament/2017/09/conservative-campaigner-app-launched.html">launched last year</a> &#8212; for Conservative Party activists to gamify, &#8216;socialize&#8217; and co-ordinate their campaigning activity &#8212; has been quietly pulled from app stores.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1740712</guid>
+			<description><![CDATA[An app that the UK&#8217;s governing party launched last year &#8212; for Conservative Party activists to gamify, &#8216;socialize&#8217; and co-ordinate their campaigning activity &#8212; has been quietly pulled from app stores. Its vanishing was flagged to us earlier today, by Twitter user Sarah Parks, who noticed that, when loaded, the Campaigner app now displays a message informing users [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">An app that the UK&#8217;s governing party <a href="https://www.conservativehome.com/parliament/2017/09/conservative-campaigner-app-launched.html">launched last year</a> &#8212; for Conservative Party activists to gamify, &#8216;socialize&#8217; and co-ordinate their campaigning activity &#8212; has been quietly pulled from app stores.</p>
 <p>Its vanishing was flagged to us earlier today, by <a href="https://twitter.com/goldfinchgazer/status/1057890556968386560">Twitter user Sarah Parks</a>, who noticed that, when loaded, the Campaigner app now displays a message informing users the supplier is &#8220;no longer supporting clients based in Europe&#8221;.</p>
 <p>&#8220;So we&#8217;re taking this opportunity to refresh our campaigning app,&#8221; it adds. &#8220;We will be back with a new and improved app early next year &#8211; well in time for the local elections.&#8221;</p>
 <p>(Bad luck, then, should there end up being another very snap, Brexit-induced UK General Election in the meanwhile, as some have suggested may yet come to pass. But I digress&#8230; )</p>
@@ -290,67 +306,61 @@
 <p><em>Can the Conservative Party confirm how many individuals had their personal data shared with uCampaign?</em></p>
 <p><em>Has the Information Commissioner&#8217;s Office raised any concerns with the Conservative Party about the Campaigner app?</em></p>
 <p><em>Has the Conservative Party itself reported any concerns about the app/uCampaign to the ICO?</em></p></blockquote>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/11/01/campaign-tool-supplied-to-uks-governing-party-by-trump-pence-app-dev-quietly-taken-out-of-service/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1740712</post-id>	</item>
+			<slash:comments>1</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1740712</post-id>
+		</item>
 		<item>
-		<title>Monzo launches interest-earning savings accounts</title>
-		<link>https://techcrunch.com/2018/11/01/interest-ing/</link>
-		<comments>https://techcrunch.com/2018/11/01/interest-ing/#comments</comments>
-		<pubDate>Thu, 01 Nov 2018 13:09:44 +0000</pubDate>
-		<dc:creator><![CDATA[Steve O'Hear]]></dc:creator>
-				<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Finance]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[TC]]></category>
-		<category><![CDATA[Banking]]></category>
-		<category><![CDATA[monzo]]></category>
+			<title>Monzo launches interest-earning savings accounts</title>
+			<link>https://techcrunch.com/2018/11/01/interest-ing/</link>
+			<comments>https://techcrunch.com/2018/11/01/interest-ing/#comments</comments>
+			<pubDate>Thu, 01 Nov 2018 13:09:44 +0000</pubDate>
+			<dc:creator><![CDATA[Steve O'Hear]]></dc:creator>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Finance]]></category>
+			<category><![CDATA[Startups]]></category>
+			<category><![CDATA[TC]]></category>
+			<category><![CDATA[Banking]]></category>
+			<category><![CDATA[monzo]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1740506</guid>
-		<description><![CDATA[Well, you have to admire a staggered PR plan. Monzo, the U.K. challenger bank that just announced £85 million in Series E funding and its entrance into the fintech unicorn club, is rolling out a new feature today. The banking upstart is adding interest-earning savings accounts as an upgrade to its existing &#8220;Pots&#8221; functionality that [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">Well, you have to admire a staggered PR plan. <a class="crunchbase-link" href="https://crunchbase.com/organization/mondo" target="_blank" data-type="organization" data-entity="mondo">Monzo, <span class="crunchbase-tooltip-indicator"></span></a> the U.K. challenger bank that just announced £85 million in Series E funding <a href="https://techcrunch.com/2018/10/30/monzocorn/">and its entrance into the fintech unicorn club</a>, is rolling out a new feature today. The banking upstart is adding interest-earning savings accounts as an upgrade to its existing &#8220;Pots&#8221; functionality that launched last November.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1740506</guid>
+			<description><![CDATA[Well, you have to admire a staggered PR plan. Monzo, the U.K. challenger bank that just announced £85 million in Series E funding and its entrance into the fintech unicorn club, is rolling out a new feature today. The banking upstart is adding interest-earning savings accounts as an upgrade to its existing &#8220;Pots&#8221; functionality that [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">Well, you have to admire a staggered PR plan. <a class="crunchbase-link" href="https://crunchbase.com/organization/mondo" target="_blank" data-type="organization" data-entity="mondo">Monzo, <span class="crunchbase-tooltip-indicator"></span></a> the U.K. challenger bank that just announced £85 million in Series E funding <a href="https://techcrunch.com/2018/10/30/monzocorn/">and its entrance into the fintech unicorn club</a>, is rolling out a new feature today. The banking upstart is adding interest-earning savings accounts as an upgrade to its existing &#8220;Pots&#8221; functionality that launched last November.</p>
 <p>The new &#8220;Savings Pots&#8221; feature is being offered in partnership with third-party bank Investec Corporate &amp; Investment Banking and lets you earn 1 percent interest on the money you specifically allocate to a Savings Pot. It is the first time Monzo customers have been able to earn interest on their savings through the Monzo app, and is part of a wider <a href="https://techcrunch.com/2018/10/30/monzocorn/">&#8220;marketplace banking&#8221; strategy</a> that will see Monzo increasingly offer various financial products via third-party fintech startups or incumbent providers.</p>
 <p>The idea behind Pots is to let you set money aside for specific things, such as a planned holiday, preparing for Christmas or simply saving for a rainy day. You can create up to 10 Pots, each with their own name, and then add money to them manually, schedule payments in and out or round up your day-to-day transactions to the nearest pound and add the additional change to a Pot, piggy bank style.</p>
 <p>To that end, you&#8217;ll need a minimum of £1,000 to open a Savings Pot, and above this can put as much money as you want in a Savings Pot. The savings accounts are flexible, so you can take money out of your Savings Pots at any time, where it will arrive back in your main Monzo account the next working day. Investec will hold the money in your Savings Pots and pay the 1 percent interest.</p>
 <p>Savings Pots are covered by the Financial Services Compensation Scheme (FSCS), meaning up to £85,000 of customers’ savings are protected (i.e. £85,000 across all of your Savings Pots as well as any other money you&#8217;ve deposited with Investec). Money you have banked with Monzo outside of Savings Pots is protected by the FSCS separately, again up to £85,000.</p>
 <p>Monzo says it will be gradually rolling out the feature to its more than one million customers, and that the bank will email customers once they’re able to start using Savings Pots. I had the feature from yesterday and it is pretty self-explanatory to use.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/11/01/interest-ing/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1740506</post-id>	</item>
+			<slash:comments>2</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1740506</post-id>
+		</item>
 		<item>
-		<title>Rafal Modrzewski to talk about launching microsatellites at Disrupt Berlin</title>
-		<link>https://techcrunch.com/2018/11/01/rafal-modrzewski-to-talk-about-launching-microsatellites-at-disrupt-berlin/</link>
-		<comments>https://techcrunch.com/2018/11/01/rafal-modrzewski-to-talk-about-launching-microsatellites-at-disrupt-berlin/#respond</comments>
-		<pubDate>Thu, 01 Nov 2018 08:10:19 +0000</pubDate>
-		<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
-				<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[ICEYE]]></category>
-		<category><![CDATA[Rafal Modrzewski]]></category>
+			<title>Rafal Modrzewski to talk about launching microsatellites at Disrupt Berlin</title>
+			<link>https://techcrunch.com/2018/11/01/rafal-modrzewski-to-talk-about-launching-microsatellites-at-disrupt-berlin/</link>
+			<comments>https://techcrunch.com/2018/11/01/rafal-modrzewski-to-talk-about-launching-microsatellites-at-disrupt-berlin/#respond</comments>
+			<pubDate>Thu, 01 Nov 2018 08:10:19 +0000</pubDate>
+			<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Space]]></category>
+			<category><![CDATA[Startups]]></category>
+			<category><![CDATA[ICEYE]]></category>
+			<category><![CDATA[Rafal Modrzewski]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1739987</guid>
-		<description><![CDATA[ICEYE CEO Rafal Modrzewski is obsessed with SAR satellites. He’s so obsessed that his company plans to launch dozens of satellites into space. According to him, ICEYE satellites should be much better than existing SAR satellites — call it the Tesla or satellites if you want. That’s why I’m excited to announce that Modrzewski is [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://www.iceye.com">ICEYE</a> CEO Rafal Modrzewski is obsessed with SAR satellites. He’s so obsessed that his company plans to launch dozens of satellites into space. According to him, <a class="crunchbase-link" href="https://crunchbase.com/organization/iceye" target="_blank" data-type="organization" data-entity="iceye">ICEYE <span class="crunchbase-tooltip-indicator"></span></a> satellites should be much better than existing SAR satellites — call it the Tesla or satellites if you want. That’s why I’m excited to announce that Modrzewski is coming to TechCrunch Disrupt Berlin to speak.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1739987</guid>
+			<description><![CDATA[ICEYE CEO Rafal Modrzewski is obsessed with SAR satellites. He’s so obsessed that his company plans to launch dozens of satellites into space. According to him, ICEYE satellites should be much better than existing SAR satellites — call it the Tesla or satellites if you want. That’s why I’m excited to announce that Modrzewski is [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://www.iceye.com">ICEYE</a> CEO Rafal Modrzewski is obsessed with SAR satellites. He’s so obsessed that his company plans to launch dozens of satellites into space. According to him, <a class="crunchbase-link" href="https://crunchbase.com/organization/iceye" target="_blank" data-type="organization" data-entity="iceye">ICEYE <span class="crunchbase-tooltip-indicator"></span></a> satellites should be much better than existing SAR satellites — call it the Tesla or satellites if you want. That’s why I’m excited to announce that Modrzewski is coming to TechCrunch Disrupt Berlin to speak.</p>
 <p>SAR stands for synthetic-aperture radar. There are already many SAR satellites around the earth, observing the surface of the planet. But they weigh hundreds of kilograms and cost a small fortune to put into space.</p>
 <p>While consumer electronics have greatly benefited from miniaturization, the same can’t be said about space. But ICEYE thinks it’s time to make satellites smaller.</p>
 <p>The company’s SAR satellites only weigh around 70 to 80 kilograms. It’s a cost-effective solution, which means it’s much cheaper to build a complete constellation. The company is aiming for 18 fully operational satellites around the planet.</p>
 <p>In many ways, ICEYE is a tech achievement. And the fact that the company operates like a startup makes the venture even more interesting.</p>
 <p>If you want to hear Modrzewski tell you more about what they’ve been working on, you should come to Disrupt Berlin. The conference will take place on November 29-30 and you can <a href="https://techcrunch.com/events/disrupt-berlin-2018/tickets" title="buy your ticket right now">buy your ticket right now</a>.</p>
 <p>In addition to fireside chats and panels, like this one, new startups will participate in the Startup Battlefield Europe to win the highly coveted Battlefield cup.</p>
-	<iframe
-			id="wpcom-iframe-990a146e14c84e8a4808f8a5d6928a18"
-			width=""
-			height="1000"
-			src="https://tcprotectedembed.com/protected-iframe/990a146e14c84e8a4808f8a5d6928a18"
-			scrolling=""
-			frameborder="0"
-			class="wpcom-protected-iframe"
-	>
-	</iframe>
-	<script type="text/javascript">
+<iframe id="wpcom-iframe-990a146e14c84e8a4808f8a5d6928a18" width="" height="1000" src="https://tcprotectedembed.com/protected-iframe/990a146e14c84e8a4808f8a5d6928a18" scrolling="" frameborder="0" class="wpcom-protected-iframe">
+</iframe>
+<script type="text/javascript">
 		( function() {
 			var func = function() {
 				var iframe = document.getElementById('wpcom-iframe-990a146e14c84e8a4808f8a5d6928a18')
@@ -403,73 +413,75 @@
 			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
 		} )();
 	</script>
-	
+
 <h2>Rafal Modrzewski </h2>
 <p><em>Co-founder &amp; CEO, ICEYE</em></p>
 <p><a class="crunchbase-link" href="https://crunchbase.com/person/rafal-modrzewski" target="_blank" data-type="person" data-entity="rafal-modrzewski">Rafal Modrzewski <span class="crunchbase-tooltip-indicator"></span></a> is the Chief Executive Officer and co-founder of ICEYE. ICEYE aims to launch and operate a constellation of micro-SAR satellites providing access to timely and reliable Earth observation data. ICEYE is the first company that has successfully miniaturized a SAR satellite, creating a unit that is 100x more cost-effective than traditional counterparts. With its 18 satellite constellation, ICEYE offers its partners a set of unprecedented satellite imaging capabilities, accessing any area of interest faster, more frequently and at lower cost.</p>
 <p>Since co-founding the project in 2012, which became the company in 2014, with Pekka Laurila, Modrzewski is responsible for overseeing the organization’s growth and implementing ICEYE’s overall vision. Modrzewski brings with him deep domain expertise in SAR engineering, and he has received the 2018 Forbes 30 under 30 Technology award based on the world-first achievements of ICEYE.</p>
 <p>Prior to co-founding ICEYE, Modrzewski researched innovative products at VTT (Technical Research Centre of Finland) in the RFID and wireless sensing group. He attended Warsaw University of Technology in Poland, where he studied Electrical Engineering and co-founded the Multimedia Technologies Science Group. Modrzewski continued his studies in Radio Science and Engineering at Aalto University where he led the on-board data handling team working on Aalto-1, Finland’s flagship satellite project.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/11/01/rafal-modrzewski-to-talk-about-launching-microsatellites-at-disrupt-berlin/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1739987</post-id>	</item>
+			<slash:comments>0</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1739987</post-id>
+		</item>
 		<item>
-		<title>Lendix is now called October</title>
-		<link>https://techcrunch.com/2018/10/31/lendix-is-now-called-october/</link>
-		<comments>https://techcrunch.com/2018/10/31/lendix-is-now-called-october/#comments</comments>
-		<pubDate>Wed, 31 Oct 2018 17:25:10 +0000</pubDate>
-		<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
-				<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[France Newsletter]]></category>
-		<category><![CDATA[Lendix]]></category>
-		<category><![CDATA[October]]></category>
+			<title>Lendix is now called October</title>
+			<link>https://techcrunch.com/2018/10/31/lendix-is-now-called-october/</link>
+			<comments>https://techcrunch.com/2018/10/31/lendix-is-now-called-october/#comments</comments>
+			<pubDate>Wed, 31 Oct 2018 17:25:10 +0000</pubDate>
+			<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Startups]]></category>
+			<category><![CDATA[France Newsletter]]></category>
+			<category><![CDATA[Lendix]]></category>
+			<category><![CDATA[October]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1739959</guid>
-		<description><![CDATA[French startup Lendix is changing its name to October. The company is using this opportunity to redesign its branding assets and refresh the design of the website for new users. The product remains the same — a lending platform connecting individual and institutional investors with small and medium companies. October had to change its name for [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">French startup <a class="crunchbase-link" href="https://crunchbase.com/organization/lendix" target="_blank" data-type="organization" data-entity="lendix">Lendix <span class="crunchbase-tooltip-indicator"></span></a> is <a href="https://fr.october.eu/lendix-devient-october/">changing</a> its name to <a title="/" href="https://fr.october.eu/">October</a>. The company is using this opportunity to redesign its branding assets and refresh the design of the website for new users. The product remains the same — a lending platform connecting individual and institutional investors with small and medium companies.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1739959</guid>
+			<description><![CDATA[French startup Lendix is changing its name to October. The company is using this opportunity to redesign its branding assets and refresh the design of the website for new users. The product remains the same — a lending platform connecting individual and institutional investors with small and medium companies. October had to change its name for [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">French startup <a class="crunchbase-link" href="https://crunchbase.com/organization/lendix" target="_blank" data-type="organization" data-entity="lendix">Lendix <span class="crunchbase-tooltip-indicator"></span></a> is <a href="https://fr.october.eu/lendix-devient-october/">changing</a> its name to <a title="/" href="https://fr.october.eu/">October</a>. The company is using this opportunity to redesign its branding assets and refresh the design of the website for new users. The product remains the same — a lending platform connecting individual and institutional investors with small and medium companies.</p>
 <p>October had to change its name for multiple reasons, including the fact that Lendix sounds a bit too French for a company that wants to become a European leader. But the company used this opportunity to move away from its original, pretty boring name. Lendix is a straightforward name that suggests that it’s all about lending money.</p>
 <p>But there are so many companies with “lend” in their names that it quickly became a disadvantage — Lendopolis, Unilend, Lendosphère, LendingClub…</p>
 <p>October is easy to understand and to write down in a casual conversation. If the company wants to branch out and start offering other financial products, it won’t be awkward.</p>
 <p>That’s about it. I just wanted to note the change given that I’ve covered October a few times over the years.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/31/lendix-is-now-called-october/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1739959</post-id>	</item>
+			<slash:comments>2</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1739959</post-id>
+		</item>
 		<item>
-		<title>Zuckerberg gets joint summons from UK and Canadian parliaments</title>
-		<link>https://techcrunch.com/2018/10/31/mark-zuckerberg-gets-joint-summons-from-uk-and-canadian-parliaments/</link>
-		<comments>https://techcrunch.com/2018/10/31/mark-zuckerberg-gets-joint-summons-from-uk-and-canadian-parliaments/#comments</comments>
-		<pubDate>Wed, 31 Oct 2018 11:49:30 +0000</pubDate>
-		<dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
-				<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Government]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Social]]></category>
-		<category><![CDATA[Cambridge Analytica]]></category>
-		<category><![CDATA[Canada]]></category>
-		<category><![CDATA[Chris Wylie]]></category>
-		<category><![CDATA[Damian Collins]]></category>
-		<category><![CDATA[deception]]></category>
-		<category><![CDATA[disinformation]]></category>
-		<category><![CDATA[european union]]></category>
-		<category><![CDATA[Facebook]]></category>
-		<category><![CDATA[fake news]]></category>
-		<category><![CDATA[Mark Zuckerberg]]></category>
-		<category><![CDATA[Myanmar]]></category>
-		<category><![CDATA[Nick Clegg]]></category>
-		<category><![CDATA[online disinformation]]></category>
-		<category><![CDATA[social media]]></category>
-		<category><![CDATA[social media platforms]]></category>
-		<category><![CDATA[UK government]]></category>
-		<category><![CDATA[United Kingdom]]></category>
+			<title>Zuckerberg gets joint summons from UK and Canadian parliaments</title>
+			<link>https://techcrunch.com/2018/10/31/mark-zuckerberg-gets-joint-summons-from-uk-and-canadian-parliaments/</link>
+			<comments>https://techcrunch.com/2018/10/31/mark-zuckerberg-gets-joint-summons-from-uk-and-canadian-parliaments/#comments</comments>
+			<pubDate>Wed, 31 Oct 2018 11:49:30 +0000</pubDate>
+			<dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
+			<category><![CDATA[Artificial Intelligence]]></category>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Government]]></category>
+			<category><![CDATA[Policy]]></category>
+			<category><![CDATA[Privacy]]></category>
+			<category><![CDATA[Security]]></category>
+			<category><![CDATA[Social]]></category>
+			<category><![CDATA[Cambridge Analytica]]></category>
+			<category><![CDATA[Canada]]></category>
+			<category><![CDATA[Chris Wylie]]></category>
+			<category><![CDATA[Damian Collins]]></category>
+			<category><![CDATA[deception]]></category>
+			<category><![CDATA[disinformation]]></category>
+			<category><![CDATA[european union]]></category>
+			<category><![CDATA[Facebook]]></category>
+			<category><![CDATA[fake news]]></category>
+			<category><![CDATA[Mark Zuckerberg]]></category>
+			<category><![CDATA[Myanmar]]></category>
+			<category><![CDATA[Nick Clegg]]></category>
+			<category><![CDATA[online disinformation]]></category>
+			<category><![CDATA[social media]]></category>
+			<category><![CDATA[social media platforms]]></category>
+			<category><![CDATA[UK government]]></category>
+			<category><![CDATA[United Kingdom]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1739779</guid>
-		<description><![CDATA[Two separate parliamentary committees, in the UK and Canada, have issued an unprecedented international joint summons for Facebook&#8217;s CEO Mark Zuckerberg to appear before them. The committees are investigating the impact of online disinformation on democratic processes and want Zuckerberg to answer questions related to the Cambridge Analytica-Facebook user data misuse scandal, which both have been [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">Two separate parliamentary committees, in the UK and Canada, have issued an unprecedented international joint summons for <a class="crunchbase-link" href="https://crunchbase.com/organization/facebook" target="_blank" data-type="organization" data-entity="facebook">Facebook&#8217;s <span class="crunchbase-tooltip-indicator"></span></a> CEO <a class="crunchbase-link" href="https://crunchbase.com/person/mark-zuckerberg" target="_blank" data-type="person" data-entity="mark-zuckerberg">Mark Zuckerberg <span class="crunchbase-tooltip-indicator"></span></a> to appear before them.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1739779</guid>
+			<description><![CDATA[Two separate parliamentary committees, in the UK and Canada, have issued an unprecedented international joint summons for Facebook&#8217;s CEO Mark Zuckerberg to appear before them. The committees are investigating the impact of online disinformation on democratic processes and want Zuckerberg to answer questions related to the Cambridge Analytica-Facebook user data misuse scandal, which both have been [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">Two separate parliamentary committees, in the UK and Canada, have issued an unprecedented international joint summons for <a class="crunchbase-link" href="https://crunchbase.com/organization/facebook" target="_blank" data-type="organization" data-entity="facebook">Facebook&#8217;s <span class="crunchbase-tooltip-indicator"></span></a> CEO <a class="crunchbase-link" href="https://crunchbase.com/person/mark-zuckerberg" target="_blank" data-type="person" data-entity="mark-zuckerberg">Mark Zuckerberg <span class="crunchbase-tooltip-indicator"></span></a> to appear before them.</p>
 <p>The committees are investigating the impact of online disinformation on democratic processes and want Zuckerberg to answer questions related to the<a href="https://techcrunch.com/2018/03/29/heres-cambridge-analyticas-plan-for-voters-facebook-data/"> Cambridge Analytica-Facebook user data misuse scandal</a>, which both have been probing this year.</p>
 <p>More broadly, they are also seeking greater detail about Facebook&#8217;s digital policies and information governance practices &#8212; not least, in light of <a href="https://techcrunch.com/2018/09/28/everything-you-need-to-know-about-facebooks-data-breach-affecting-50m-users/">fresh data breaches</a> &#8212; as they continue to investigate the democratic impacts and economic incentives related to the spread of online disinformation via social media platforms.</p>
 <p>In a letter sent to the Facebook founder today, the chairs of the UK&#8217;s Digital, Culture, Media and Sport (DCMS) committee and the Canadian Standing Committee on Access to Information, Privacy and Ethics (SCAIPE), <a class="crunchbase-link" href="https://crunchbase.com/person/damian-collins" target="_blank" data-type="person" data-entity="damian-collins">Damian Collins <span class="crunchbase-tooltip-indicator"></span></a> and Bob Zimmer respectively, write that they intend to hold a &#8220;special joint parliamentary hearing at the Westminster Parliament&#8221;, on November 27 &#8212; to form an &#8220;‘international grand committee’ on disinformation and fake news&#8221;.</p>
@@ -503,31 +515,32 @@
 <div class="embed breakout">
 <blockquote class="twitter-tweet" data-width="550" data-dnt="true">
 <p lang="en" dir="ltr">In the process of cutting the session down into &#39;Tweetable&#39; clips &#8211; here&#39;s a quick taster you may find interesting&#8230;&#8230;.</p>
-<p>Well played Canada &#8211; and <a href="https://twitter.com/DamianCollins?ref_src=twsrc%5Etfw">@DamianCollins</a> and Liz Denham <a href="https://twitter.com/ICOnews?ref_src=twsrc%5Etfw">@ICOnews</a> <a href="https://twitter.com/hashtag/AIQ?src=hash&amp;ref_src=twsrc%5Etfw">#AIQ</a> <a href="https://twitter.com/hashtag/SCL?src=hash&amp;ref_src=twsrc%5Etfw">#SCL</a> <a href="https://twitter.com/hashtag/CambridgeAnalytica?src=hash&amp;ref_src=twsrc%5Etfw">#CambridgeAnalytica</a> <a href="https://twitter.com/hashtag/VoteLeave?src=hash&amp;ref_src=twsrc%5Etfw">#VoteLeave</a> <a href="https://twitter.com/hashtag/Brexit?src=hash&amp;ref_src=twsrc%5Etfw">#Brexit</a> <a href="https://t.co/jW27f8l7V4">pic.twitter.com/jW27f8l7V4</a></p>
+<p>Well played Canada &#8211; and <a href="https://twitter.com/DamianCollins?ref_src=twsrc%5Etfw">@DamianCollins</a> and Liz Denham <a href="https://twitter.com/ICOnews?ref_src=twsrc%5Etfw">@ICOnews</a><a href="https://twitter.com/hashtag/AIQ?src=hash&amp;ref_src=twsrc%5Etfw">#AIQ</a><a href="https://twitter.com/hashtag/SCL?src=hash&amp;ref_src=twsrc%5Etfw">#SCL</a><a href="https://twitter.com/hashtag/CambridgeAnalytica?src=hash&amp;ref_src=twsrc%5Etfw">#CambridgeAnalytica</a><a href="https://twitter.com/hashtag/VoteLeave?src=hash&amp;ref_src=twsrc%5Etfw">#VoteLeave</a><a href="https://twitter.com/hashtag/Brexit?src=hash&amp;ref_src=twsrc%5Etfw">#Brexit</a><a href="https://t.co/jW27f8l7V4">pic.twitter.com/jW27f8l7V4</a></p>
 <p>&mdash; Brexitshambles (@brexit_sham) <a href="https://twitter.com/brexit_sham/status/988908921782964224?ref_src=twsrc%5Etfw">April 24, 2018</a></p></blockquote>
 <p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 <p>One thing is increasingly clear when looking at the tangled web where politics and social media collide (with mass opinion manipulation the intended outcome): The interconnected, cross-border nature of the Internet, when meshed with well-funded digital political campaigning &#8212; and indeed buckets of personal data, is now placing huge strain on traditional legal structures at the nation-state level.</p>
 <p>National election laws reliant on regulating things like campaign spending and joint working, as the UK&#8217;s laws are supposed to, simply won&#8217;t work unless you can actually follow the money and genuinely map the relationships.</p>
 <p>And where use of personal data for online political ad-targeting is concerned, <a href="https://techcrunch.com/2018/10/27/big-tech-must-not-reframe-digital-ethics-in-its-image/">ethics</a> must be front and center &#8212; as the <a href="https://techcrunch.com/2018/07/11/facebook-under-fresh-political-pressure-as-uk-watchdog-calls-for-ethical-pause-of-ad-ops/">UK&#8217;s data watchdog has warned</a>.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/31/mark-zuckerberg-gets-joint-summons-from-uk-and-canadian-parliaments/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1739779</post-id>	</item>
+			<slash:comments>3</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1739779</post-id>
+		</item>
 		<item>
-		<title>Monzo, the UK challenger bank, raises £85M Series E at a £1B pre-money valuation</title>
-		<link>https://techcrunch.com/2018/10/30/monzocorn/</link>
-		<comments>https://techcrunch.com/2018/10/30/monzocorn/#comments</comments>
-		<pubDate>Wed, 31 Oct 2018 00:01:18 +0000</pubDate>
-		<dc:creator><![CDATA[Steve O'Hear]]></dc:creator>
-				<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Fundings & Exits]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[TC]]></category>
-		<category><![CDATA[monzo]]></category>
+			<title>Monzo, the UK challenger bank, raises £85M Series E at a £1B pre-money valuation</title>
+			<link>https://techcrunch.com/2018/10/30/monzocorn/</link>
+			<comments>https://techcrunch.com/2018/10/30/monzocorn/#comments</comments>
+			<pubDate>Wed, 31 Oct 2018 00:01:18 +0000</pubDate>
+			<dc:creator><![CDATA[Steve O'Hear]]></dc:creator>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Fundings & Exits]]></category>
+			<category><![CDATA[Startups]]></category>
+			<category><![CDATA[TC]]></category>
+			<category><![CDATA[monzo]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1739439</guid>
-		<description><![CDATA[Monzo, the U.K. challenger bank that now boasts more than a million customers, has raised £85 million in Series E funding. The round is led by U.S. venture capital firm General Catalyst and Accel. Existing backers Passion Capital, Goodwater, Thrive Capital, Orange Digital Ventures and Stripe also participated. The latest funding was at a pre-money [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://monzo.com/">Monzo</a>, the U.K. challenger bank that now boasts more than a million customers, has raised £85 million in Series E funding. The round is led by U.S. venture capital firm General Catalyst and Accel. <a href="https://techcrunch.com/2017/11/06/monzo-moolah/">Existing backers</a> Passion Capital, Goodwater, Thrive Capital, Orange Digital Ventures and Stripe also participated.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1739439</guid>
+			<description><![CDATA[Monzo, the U.K. challenger bank that now boasts more than a million customers, has raised £85 million in Series E funding. The round is led by U.S. venture capital firm General Catalyst and Accel. Existing backers Passion Capital, Goodwater, Thrive Capital, Orange Digital Ventures and Stripe also participated. The latest funding was at a pre-money [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://monzo.com/">Monzo</a>, the U.K. challenger bank that now boasts more than a million customers, has raised £85 million in Series E funding. The round is led by U.S. venture capital firm General Catalyst and Accel. <a href="https://techcrunch.com/2017/11/06/monzo-moolah/">Existing backers</a> Passion Capital, Goodwater, Thrive Capital, Orange Digital Ventures and Stripe also participated.</p>
 <p>The latest funding was at a pre-money valuation of £1 billion (~$1.27b), meaning that <a class="crunchbase-link" href="https://crunchbase.com/organization/mondo" target="_blank" data-type="organization" data-entity="mondo">Monzo <span class="crunchbase-tooltip-indicator"></span></a> is now a bona-fide member of the U.K. fintech unicorn club, <a href="https://techcrunch.com/2018/04/25/revolunicorn/">joining recent entrant</a> Revolut.</p>
 <p>Meanwhile, the bank upstart is also planning to launch a large crowdfunding round later this year. Like a lot of other fintechs &#8212; and before it was fashionable &#8212; Monzo has historically opened up its fundraising to its passionate community and other armchair investors.</p>
 <p>In a brief call earlier today with Monzo co-founder and CEO Tom Blomfield, he told me the new funding will be primarily used for increasing headcount to further develop the Monzo product line and to cover other operational costs now that the challenger bank has reached &#8220;contribution margin positive.&#8221;</p>
@@ -541,25 +554,26 @@
 <p>Asked what Monzo&#8217;s biggest challenge will be over the next year, its CEO doesn&#8217;t mince his words: &#8220;Increasing revenue,&#8221; he says. This means ensuring that its lending models are correct (i.e. avoiding too many defaults as it scales) and steadfastly growing the marketplace and third-party product partnerships that will bring in additional revenue.</p>
 <p>I was also intrigued to see a U.S. venture capital firm once again back the U.K. challenger bank &#8212; many of its existing backers have a U.S. bent and Blomfield has made no secret of his ambitions to expand across the pond at some stage. In an email exchange a few hours before publication, General Catalyst&#8217;s Adam Valkin (who was previously at Accel in London, where he invested in GoCardless, which Blomfield also co-founded), gave me the following statement:</p>
 <blockquote><p>We&#8217;re investing in Tom and his team because they are delivering a high-quality banking experience for consumers at scale that is sorely missing from the market. Today’s incumbent UK banks represent billions of market cap but suffer from low NPS scores, reflecting their inability to meet their customers’ needs. Monzo, in contrast, explicitly builds product and banking features in a community-driven approach based on customers’ feedback and requests. This has driven very high organic growth, strong retention and engagement, and unprecedented customer love for and trust in Monzo. Beyond this, Tom and the Monzo team have improved upon the traditional business model of banking, removing the traditional offline retail-based banking model in favor of a highly scalable and lower cost mobile-only experience. All of this creates the potential for Monzo to become a leading U.K. bank, launch a successful financial marketplace, and eventually expand internationally.</p></blockquote>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/30/monzocorn/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1739439</post-id>	</item>
+			<slash:comments>1</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1739439</post-id>
+		</item>
 		<item>
-		<title>Concord raises $25 million for its contract management platform</title>
-		<link>https://techcrunch.com/2018/10/30/concord-raises-25-million-for-its-contract-management-platform/</link>
-		<comments>https://techcrunch.com/2018/10/30/concord-raises-25-million-for-its-contract-management-platform/#respond</comments>
-		<pubDate>Tue, 30 Oct 2018 13:01:58 +0000</pubDate>
-		<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
-				<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Fundings & Exits]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[concord]]></category>
-		<category><![CDATA[France Newsletter]]></category>
+			<title>Concord raises $25 million for its contract management platform</title>
+			<link>https://techcrunch.com/2018/10/30/concord-raises-25-million-for-its-contract-management-platform/</link>
+			<comments>https://techcrunch.com/2018/10/30/concord-raises-25-million-for-its-contract-management-platform/#respond</comments>
+			<pubDate>Tue, 30 Oct 2018 13:01:58 +0000</pubDate>
+			<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Fundings & Exits]]></category>
+			<category><![CDATA[Startups]]></category>
+			<category><![CDATA[concord]]></category>
+			<category><![CDATA[France Newsletter]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1739144</guid>
-		<description><![CDATA[Concord is raising a new $25 million funding round led by Tenaya Capital, with existing investors CRV and Alven also participating. The company is building a platform that makes it easier to manage your contracts all the way from writing them to signing them. Even if you used a service like DocuSign to sign a [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://www.concordnow.com">Concord</a> is raising a new $25 million funding round led by Tenaya Capital, with existing investors CRV and Alven also participating. The company is building a platform that makes it easier to manage your contracts all the way from writing them to signing them.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1739144</guid>
+			<description><![CDATA[Concord is raising a new $25 million funding round led by Tenaya Capital, with existing investors CRV and Alven also participating. The company is building a platform that makes it easier to manage your contracts all the way from writing them to signing them. Even if you used a service like DocuSign to sign a [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://www.concordnow.com">Concord</a> is raising a new $25 million funding round led by Tenaya Capital, with existing investors CRV and Alven also participating. The company is building a platform that makes it easier to manage your contracts all the way from writing them to signing them.</p>
 <p>Even if you used a service like DocuSign to sign a contract in the past, chances are you or the sender used Microsoft Word to write the contract. It’s fine if you’re the only one working on this contract. But it can quickly become a mess as your legal team gets larger.</p>
 <p>“It&#39;s ultimately bringing a B2C experience to a really complex B2B experience,” VP of Marketing Travis Bickham told me.</p>
 <p>And one of the company’s main challenge has been to make it convenient for all teams in your organization. If you work in human resources, you’re dealing with HR contracts. If you’re an office manager, you may need to sign a contract to order a new fridge. If you’re on the sales team, you want to make sure your client signs a contract. The procurement team also wants some sort of legal proof from its partners. And the list goes on.</p>
@@ -567,45 +581,38 @@
 <p>You can create an approval process for more complicated contracts. For instance, you can say that the legal team has to approve any sales contract above $100,000.</p>
 <p>Concord has also built integrations with third-party tools. For instance, you can generate a contract in Salesforce using Concord’s integration.</p>
 <p>There are currently 80 people working for Concord in San Francisco and Paris. With today’s funding round, the company plans to hire more people, get more clients, target bigger companies, etc. Concord currently works with 200,000 companies.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/30/concord-raises-25-million-for-its-contract-management-platform/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1739144</post-id>	</item>
+			<slash:comments>0</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1739144</post-id>
+		</item>
 		<item>
-		<title>Ole Harms to talk about Moia’s mobility bet at Disrupt Berlin</title>
-		<link>https://techcrunch.com/2018/10/30/ole-harms-to-talk-about-moias-mobility-bet-at-disrupt-berlin/</link>
-		<comments>https://techcrunch.com/2018/10/30/ole-harms-to-talk-about-moias-mobility-bet-at-disrupt-berlin/#respond</comments>
-		<pubDate>Tue, 30 Oct 2018 12:35:57 +0000</pubDate>
-		<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
-				<category><![CDATA[Automotive]]></category>
-		<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Disrupt]]></category>
-		<category><![CDATA[disrupt berlin]]></category>
-		<category><![CDATA[disrupt berlin 2018]]></category>
-		<category><![CDATA[Moia]]></category>
-		<category><![CDATA[Ole Harms]]></category>
-		<category><![CDATA[volkswagen]]></category>
+			<title>Ole Harms to talk about Moia’s mobility bet at Disrupt Berlin</title>
+			<link>https://techcrunch.com/2018/10/30/ole-harms-to-talk-about-moias-mobility-bet-at-disrupt-berlin/</link>
+			<comments>https://techcrunch.com/2018/10/30/ole-harms-to-talk-about-moias-mobility-bet-at-disrupt-berlin/#respond</comments>
+			<pubDate>Tue, 30 Oct 2018 12:35:57 +0000</pubDate>
+			<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
+			<category><![CDATA[Automotive]]></category>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Disrupt]]></category>
+			<category><![CDATA[disrupt berlin]]></category>
+			<category><![CDATA[disrupt berlin 2018]]></category>
+			<category><![CDATA[Moia]]></category>
+			<category><![CDATA[Ole Harms]]></category>
+			<category><![CDATA[volkswagen]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1739126</guid>
-		<description><![CDATA[Volkswagen Group wants to reinvent itself in the age of connected and electric vehicles. And it starts with Volkswagen’s Moia, a brand new mobility brand with services and vehicles built for the cities of tomorrow. That’s why I’m excited to announce that Moia CEO Ole Harms is joining us at TechCrunch Disrupt Berlin. Volkswagen has [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">Volkswagen Group wants to reinvent itself in the age of connected and electric vehicles. And it starts with Volkswagen’s Moia, a brand new mobility brand with services and vehicles built for the cities of tomorrow. That’s why I’m excited to announce that Moia CEO <a href="https://www.crunchbase.com/person/ole-harms">Ole Harms</a> is joining us at <a href="https://techcrunch.com/events/disrupt-berlin-2018/" title="TechCrunch Disrupt Berlin">TechCrunch Disrupt Berlin</a>.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1739126</guid>
+			<description><![CDATA[Volkswagen Group wants to reinvent itself in the age of connected and electric vehicles. And it starts with Volkswagen’s Moia, a brand new mobility brand with services and vehicles built for the cities of tomorrow. That’s why I’m excited to announce that Moia CEO Ole Harms is joining us at TechCrunch Disrupt Berlin. Volkswagen has [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">Volkswagen Group wants to reinvent itself in the age of connected and electric vehicles. And it starts with Volkswagen’s Moia, a brand new mobility brand with services and vehicles built for the cities of tomorrow. That’s why I’m excited to announce that Moia CEO <a href="https://www.crunchbase.com/person/ole-harms">Ole Harms</a> is joining us at <a href="https://techcrunch.com/events/disrupt-berlin-2018/" title="TechCrunch Disrupt Berlin">TechCrunch Disrupt Berlin</a>.</p>
 <p>Volkswagen has been covering all bases with Moia. Last year at Disrupt Berlin, the company unveiled an <a href="https://techcrunch.com/2017/12/04/volkswagens-moia-debuts-its-all-electric-rideshare-vehicle/" title="Volkswagen’s MOIA debuts its all-electric rideshare vehicle">all-electric rideshare vehicle</a>. Moia has been piloting this new vehicle in Hamburg. In addition to six individual seats, the car features USB ports, individual lights, Wi-Fi and storage space at the front.</p>
 <p>In other words, this is the minibus of the future. With a range of 186 miles, it represents a viable alternative to traditional vehicles. It isn’t a self-driving vehicle as Volkswagen wants to put this model on the road right now.</p>
 <p><img src="https://techcrunch.com/wp-content/uploads/2018/10/imgl9792_v2.jpg" alt="" width="1024" height="683" class="breakout aligncenter size-full wp-image-1739130" /></p>
 <p>In addition to this hardware strategy, Moia is releasing its own mobility service called… Moia. You can already download the app and order a ride in Hanover. It works pretty much like Uber and all the ride-hailing services out there. But Moia wants to own the software platform.</p>
 <p>If you want to hear more about Volkswagen’s strategy to disrupt mobility before the company gets disrupted, <a href="https://techcrunch.com/events/disrupt-berlin-2018/tickets" title="buy your ticket right now">grab your Disrupt tickets right now</a>. The conference will take place on November 29-30.</p>
 <p>In addition to fireside chats and panels, like this one, new startups will participate in the Startup Battlefield Europe to win the highly coveted Battlefield cup.</p>
-	<iframe
-			id="wpcom-iframe-990a146e14c84e8a4808f8a5d6928a18"
-			width=""
-			height="1000"
-			src="https://tcprotectedembed.com/protected-iframe/990a146e14c84e8a4808f8a5d6928a18"
-			scrolling=""
-			frameborder="0"
-			class="wpcom-protected-iframe"
-	>
-	</iframe>
-	<script type="text/javascript">
+<iframe id="wpcom-iframe-990a146e14c84e8a4808f8a5d6928a18" width="" height="1000" src="https://tcprotectedembed.com/protected-iframe/990a146e14c84e8a4808f8a5d6928a18" scrolling="" frameborder="0" class="wpcom-protected-iframe">
+</iframe>
+<script type="text/javascript">
 		( function() {
 			var func = function() {
 				var iframe = document.getElementById('wpcom-iframe-990a146e14c84e8a4808f8a5d6928a18')
@@ -658,36 +665,37 @@
 			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
 		} )();
 	</script>
-	
+
 <h2>Ole Harms </h2>
 <p><i>CEO, MOIA</i></p>
 <p><a class="crunchbase-link" href="https://crunchbase.com/person/ole-harms" target="_blank" data-type="person" data-entity="ole-harms">Ole Harms <span class="crunchbase-tooltip-indicator"></span></a> (43) has been CEO of MOIA since December 2016. After working as a strategy consultant at Capgemini, Harms joined Volkswagen Consulting in 2008. As head of the Sales and Marketing division, he advised Volkswagen&#39;s top management. In 2012, he took over as Head of New Business Models and Performance.</p>
 <p>From 2014 to January 2016 he was Executive Director and Head of New Business Models &amp; Mobility Services. There he initiated the mobility partnership with the city of Hamburg and was responsible for the conception and development of MOIA. Ole Harms lives in Hannover and Berlin.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/30/ole-harms-to-talk-about-moias-mobility-bet-at-disrupt-berlin/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1739126</post-id>	</item>
+			<slash:comments>0</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1739126</post-id>
+		</item>
 		<item>
-		<title>Uber back in court in UK to argue against workers rights for drivers</title>
-		<link>https://techcrunch.com/2018/10/30/uber-back-in-court-in-uk-to-argue-against-workers-rights-for-drivers/</link>
-		<comments>https://techcrunch.com/2018/10/30/uber-back-in-court-in-uk-to-argue-against-workers-rights-for-drivers/#respond</comments>
-		<pubDate>Tue, 30 Oct 2018 09:23:05 +0000</pubDate>
-		<dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
-				<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Lawsuit]]></category>
-		<category><![CDATA[Transportation]]></category>
-		<category><![CDATA[employment law]]></category>
-		<category><![CDATA[GMB Union]]></category>
-		<category><![CDATA[London]]></category>
-		<category><![CDATA[Uber]]></category>
-		<category><![CDATA[UK government]]></category>
-		<category><![CDATA[United Kingdom]]></category>
-		<category><![CDATA[workers rights]]></category>
+			<title>Uber back in court in UK to argue against workers rights for drivers</title>
+			<link>https://techcrunch.com/2018/10/30/uber-back-in-court-in-uk-to-argue-against-workers-rights-for-drivers/</link>
+			<comments>https://techcrunch.com/2018/10/30/uber-back-in-court-in-uk-to-argue-against-workers-rights-for-drivers/#respond</comments>
+			<pubDate>Tue, 30 Oct 2018 09:23:05 +0000</pubDate>
+			<dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
+			<category><![CDATA[Apps]]></category>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Lawsuit]]></category>
+			<category><![CDATA[Transportation]]></category>
+			<category><![CDATA[employment law]]></category>
+			<category><![CDATA[GMB Union]]></category>
+			<category><![CDATA[London]]></category>
+			<category><![CDATA[Uber]]></category>
+			<category><![CDATA[UK government]]></category>
+			<category><![CDATA[United Kingdom]]></category>
+			<category><![CDATA[workers rights]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1739073</guid>
-		<description><![CDATA[Uber is back in court in the UK today and tomorrow to try once again to overturn a  two year old employment tribunal ruling that judged a group of Uber drivers to be workers &#8212; meaning they&#8217;re entitled to workers benefits such as holiday pay, paid rest breaks and the national minimum wage. Uber lost its first [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary"><a class="crunchbase-link" href="https://crunchbase.com/organization/uber" target="_blank" data-type="organization" data-entity="uber">Uber <span class="crunchbase-tooltip-indicator"></span></a> is back in court in the UK today and tomorrow to try once again to overturn a  <a href="https://techcrunch.com/2016/10/28/uber-loses-employment-tribunal-in-the-uk/">two year old </a>employment tribunal ruling that judged a group of Uber drivers to be workers &#8212; meaning they&#8217;re entitled to workers benefits such as holiday pay, paid rest breaks and the national minimum wage.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1739073</guid>
+			<description><![CDATA[Uber is back in court in the UK today and tomorrow to try once again to overturn a  two year old employment tribunal ruling that judged a group of Uber drivers to be workers &#8212; meaning they&#8217;re entitled to workers benefits such as holiday pay, paid rest breaks and the national minimum wage. Uber lost its first [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary"><a class="crunchbase-link" href="https://crunchbase.com/organization/uber" target="_blank" data-type="organization" data-entity="uber">Uber <span class="crunchbase-tooltip-indicator"></span></a> is back in court in the UK today and tomorrow to try once again to overturn a  <a href="https://techcrunch.com/2016/10/28/uber-loses-employment-tribunal-in-the-uk/">two year old </a>employment tribunal ruling that judged a group of Uber drivers to be workers &#8212; meaning they&#8217;re entitled to workers benefits such as holiday pay, paid rest breaks and the national minimum wage.</p>
 <p>Uber lost its first appeal against the ruling <a href="https://techcrunch.com/2017/11/10/uber-loses-uk-tribunal-appeal-over-driver-employment-rights/">last year</a> but has said it will continue to appeal.</p>
 <p>On Sunday the <a href="http://www.gmb.org.uk/newsroom/uber-driver-losses">GMB Union</a> calculated that Uber drivers in the UK are £18,000 out of pocket as a result of the company continuing to fight the rights judgement, rather than paying the additional entitlements.</p>
 <p>In a statement Sue Harris, GMB legal director, said: &#8220;These figures lay bare the human cost of Uber continuing to refuse to accept the ruling of the courts. While the company are wasting money losing appeal after appeal, their drivers are up to £18,000 out of pocket for the last two years alone.</p>
@@ -713,26 +721,27 @@
 <p>A parallel event is being held in Glasgow to coincide with the hearing.</p>
 <p>Commenting in a statement, IWGB United Private Hire Drivers branch chair and Uber case co-claimant Farrar said: &#8220;It&#8217;s two years since we beat Uber at the Employment Tribunal, yet minicab drivers all over the UK are still waiting for justice, while Uber exhausts endless appeals. As the government ignores this mounting crisis, it&#8217;s been left to workers to fix this broken system and bring rogue bosses to account. If anything gives me hope, it is the rising tide of precarious workers that are organising and demanding a fair deal.&#8221;</p>
 <p>IWGB general secretary Jason Moyer Lee added: &#8220;Precarious workers are getting hammered in this country. The protest is the articulation of the legitimate grievance of those who are being denied the basic rights and dignities at work that we should all be able to take for granted.&#8221;</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/30/uber-back-in-court-in-uk-to-argue-against-workers-rights-for-drivers/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1739073</post-id>	</item>
+			<slash:comments>0</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1739073</post-id>
+		</item>
 		<item>
-		<title>Applying AI to insurance documents, omni:us raises its first Series A funding</title>
-		<link>https://techcrunch.com/2018/10/30/appyling-ai-to-insurance-documents-omnius-raises-its-first-series-a-funding/</link>
-		<comments>https://techcrunch.com/2018/10/30/appyling-ai-to-insurance-documents-omnius-raises-its-first-series-a-funding/#comments</comments>
-		<pubDate>Tue, 30 Oct 2018 08:41:07 +0000</pubDate>
-		<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
-				<category><![CDATA[Europe]]></category>
-		<category><![CDATA[TC]]></category>
-		<category><![CDATA[allianz]]></category>
-		<category><![CDATA[MMC Ventures]]></category>
-		<category><![CDATA[Talis Capital]]></category>
-		<category><![CDATA[Target Global]]></category>
+			<title>Applying AI to insurance documents, omni:us raises its first Series A funding</title>
+			<link>https://techcrunch.com/2018/10/30/appyling-ai-to-insurance-documents-omnius-raises-its-first-series-a-funding/</link>
+			<comments>https://techcrunch.com/2018/10/30/appyling-ai-to-insurance-documents-omnius-raises-its-first-series-a-funding/#comments</comments>
+			<pubDate>Tue, 30 Oct 2018 08:41:07 +0000</pubDate>
+			<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[TC]]></category>
+			<category><![CDATA[allianz]]></category>
+			<category><![CDATA[MMC Ventures]]></category>
+			<category><![CDATA[Talis Capital]]></category>
+			<category><![CDATA[Target Global]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1738983</guid>
-		<description><![CDATA[Earlier this year omni:us, an AI-driven service which is able to process digital documents (some of which contain handwriting) by classifying them and extracting the valuable data, revealed it was working with over half of the top 10 insurance providers in the German-speaking DACH region. It’s now closed a Series A round of funding bringing [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://techcrunch.com/2018/03/19/searchink-rebrands-as-omnius-aims-its-hand-writing-reading-ai-at-insurance-industry/">Earlier this year</a> <a href="https://omnius.com/">omni:us</a>, an AI-driven service which is able to process digital documents (some of which contain handwriting) by classifying them and extracting the valuable data, revealed it was working with over half of the top 10 insurance providers in the German-speaking DACH region.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1738983</guid>
+			<description><![CDATA[Earlier this year omni:us, an AI-driven service which is able to process digital documents (some of which contain handwriting) by classifying them and extracting the valuable data, revealed it was working with over half of the top 10 insurance providers in the German-speaking DACH region. It’s now closed a Series A round of funding bringing [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://techcrunch.com/2018/03/19/searchink-rebrands-as-omnius-aims-its-hand-writing-reading-ai-at-insurance-industry/">Earlier this year</a><a href="https://omnius.com/">omni:us</a>, an AI-driven service which is able to process digital documents (some of which contain handwriting) by classifying them and extracting the valuable data, revealed it was working with over half of the top 10 insurance providers in the German-speaking DACH region.</p>
 <p>It’s now closed a Series A round of funding bringing its total funding to date to €19.7M ($22.5 million). Back in early 2017 it announced €4.2M in seed funding, from IBB Berlin, as well as individual investors (including Michael Schmitt, ex-engineering director at Google Switzerland). Then in March this year it announced further funds which brought the total to $6.5 million, secured from individual angels and VC companies, including Anthemis.</p>
 <p>This latest investment was led by Berlin-headquartered VC firm <a class="crunchbase-link" href="https://crunchbase.com/organization/target-ventures" target="_blank" data-type="organization" data-entity="target-ventures">Target Global, <span class="crunchbase-tooltip-indicator"></span></a> followed by MMC Ventures and Talis Capital. Existing investors, Unbound and Anthemis, also participated. This will make it a well-capitalized player in the new area of AI-driven insurance platforms.</p>
 <p>It’s so far working with several top global insurance companies &#8211; such as <a class="crunchbase-link" href="https://crunchbase.com/organization/allianz" target="_blank" data-type="organization" data-entity="allianz">Allianz, <span class="crunchbase-tooltip-indicator"></span></a> Baloise and AmTrust &#8211; as well as insurtech firms &#8211; such as Wefox – to boost efficiency and focus on its core competencies.</p>
@@ -740,35 +749,36 @@
 <p>Mike Lobanov, General Partner at Target Global, said: “omni:us functionality is tested to provide best-in-class quality in claims digitalization… We believe automated claims handling will become a new standard in the insurance industry that will substantially cut costs and make insurance more affordable to customers.”</p>
 <p>Dan Bailey, Investment Manager, <a class="crunchbase-link" href="https://crunchbase.com/organization/mmc-ventures" target="_blank" data-type="organization" data-entity="mmc-ventures">MMC Ventures, <span class="crunchbase-tooltip-indicator"></span></a> said: “Insurance carriers are undergoing a once in a generation technology shift, embracing new digital core platforms and adopting best-in-class digitisation and analytics… Sofie and her co-founders have assembled a world-class team, and we’re delighted to be backing them in their vision of bringing AI to the insurance industry.”</p>
 <p>Back in 2015 omni:us launched as <a href="https://techcrunch.com/2016/11/17/searchink-unlocking-the-handwritten-past-and-present-with-machine-learning/">SearchInk</a> with the aim of combining machine learning with handwriting recognition. The upshot would be the ability to semantically label handwritten documents.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/30/appyling-ai-to-insurance-documents-omnius-raises-its-first-series-a-funding/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1738983</post-id>	</item>
+			<slash:comments>1</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1738983</post-id>
+		</item>
 		<item>
-		<title>One of crypto’s longest-running exchanges has been sold</title>
-		<link>https://techcrunch.com/2018/10/30/one-of-cryptos-longest-running-exchanges-has-been-sold/</link>
-		<comments>https://techcrunch.com/2018/10/30/one-of-cryptos-longest-running-exchanges-has-been-sold/#comments</comments>
-		<pubDate>Tue, 30 Oct 2018 07:32:46 +0000</pubDate>
-		<dc:creator><![CDATA[Jon Russell]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[bitstamp]]></category>
-		<category><![CDATA[crypto]]></category>
-		<category><![CDATA[cryptocurrencies]]></category>
-		<category><![CDATA[european union]]></category>
-		<category><![CDATA[korea]]></category>
-		<category><![CDATA[money]]></category>
-		<category><![CDATA[mt.gox]]></category>
-		<category><![CDATA[nathaniel popper]]></category>
-		<category><![CDATA[nexon]]></category>
-		<category><![CDATA[pantera capital]]></category>
-		<category><![CDATA[south korea]]></category>
-		<category><![CDATA[xrp]]></category>
+			<title>One of crypto’s longest-running exchanges has been sold</title>
+			<link>https://techcrunch.com/2018/10/30/one-of-cryptos-longest-running-exchanges-has-been-sold/</link>
+			<comments>https://techcrunch.com/2018/10/30/one-of-cryptos-longest-running-exchanges-has-been-sold/#comments</comments>
+			<pubDate>Tue, 30 Oct 2018 07:32:46 +0000</pubDate>
+			<dc:creator><![CDATA[Jon Russell]]></dc:creator>
+			<category><![CDATA[Cryptocurrency]]></category>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Bitcoin]]></category>
+			<category><![CDATA[bitstamp]]></category>
+			<category><![CDATA[crypto]]></category>
+			<category><![CDATA[cryptocurrencies]]></category>
+			<category><![CDATA[european union]]></category>
+			<category><![CDATA[korea]]></category>
+			<category><![CDATA[money]]></category>
+			<category><![CDATA[mt.gox]]></category>
+			<category><![CDATA[nathaniel popper]]></category>
+			<category><![CDATA[nexon]]></category>
+			<category><![CDATA[pantera capital]]></category>
+			<category><![CDATA[south korea]]></category>
+			<category><![CDATA[xrp]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1739047</guid>
-		<description><![CDATA[One of the longest-standing crypto exchanges has new owners after Europe-based Bitstamp was sold to South Korea&#8217;s Nexon, marking the gaming firm&#8217;s second such acquisition. The acquirer is NXMH, a Belgium-based PE and investment firm owned by NXC &#8212; the parent of Nexon &#8212; and it will take a majority 80 percent stake in the business for [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">One of the longest-standing crypto exchanges has new owners after Europe-based <a href="https://www.bitstamp.net/article/bitstamp-acquired-nxmh/">Bitstamp was sold</a> to South Korea&#8217;s Nexon, marking the gaming firm&#8217;s second such acquisition.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1739047</guid>
+			<description><![CDATA[One of the longest-standing crypto exchanges has new owners after Europe-based Bitstamp was sold to South Korea&#8217;s Nexon, marking the gaming firm&#8217;s second such acquisition. The acquirer is NXMH, a Belgium-based PE and investment firm owned by NXC &#8212; the parent of Nexon &#8212; and it will take a majority 80 percent stake in the business for [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">One of the longest-standing crypto exchanges has new owners after Europe-based <a href="https://www.bitstamp.net/article/bitstamp-acquired-nxmh/">Bitstamp was sold</a> to South Korea&#8217;s Nexon, marking the gaming firm&#8217;s second such acquisition.</p>
 <p>The acquirer is NXMH, a Belgium-based PE and investment firm owned by NXC &#8212; the parent of <a class="crunchbase-link" href="https://crunchbase.com/organization/nexon" target="_blank" data-type="organization" data-entity="nexon">Nexon <span class="crunchbase-tooltip-indicator"></span></a> &#8212; and it will take a majority 80 percent stake in the business for an unknown fee. <a href="https://twitter.com/nathanielpopper/status/976855339927785473">The New York Times&#8217; Nathaniel Popper suggested earlier this year</a> that Bitstamp was in the process of being sold &#8220;to South Korean investors&#8221; for $400 million, but NXC declined to comment on the price when asked by TechCrunch.</p>
 <p><a href="https://techcrunch.com/2017/09/28/nxc-corp-acquires-korbit/">NXC acquired 65 percent of Korea-based exchange Korbit</a> one year ago for 91.3 billion KRW, or approximately $79.5 million at the time.</p>
 <p><a class="crunchbase-link" href="https://crunchbase.com/organization/bitstamp" target="_blank" data-type="organization" data-entity="bitstamp">Bitstamp <span class="crunchbase-tooltip-indicator"></span></a> was founded in 2011 by Slovenian entrepreneur Nejc Kodrič with an initial €1,000 and it survived the heady early days of crypto, <a href="https://techcrunch.com/2014/02/25/mt-gox-implodes/">unlike a certain peer named Mt. Gox</a>. Today, Bitstamp is ranked inside the world&#8217;s top 30 exchanges based on trading volume with more than 100 staff. Bitcoin and XRP are among its most traded tokens, <a href="https://coinmarketcap.com/exchanges/volume/24-hour/">according to data from Coinmarketcap.com</a>.</p>
@@ -783,33 +793,34 @@
 <div class="author-profile__description">
 <p><em>Note: The author owns a small amount of cryptocurrency. Enough to gain an understanding, not enough to change a life.</em></p>
 </div>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/30/one-of-cryptos-longest-running-exchanges-has-been-sold/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1739047</post-id>	</item>
+			<slash:comments>1</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1739047</post-id>
+		</item>
 		<item>
-		<title>Europe’s most popular ride-hailing service is launching e-scooters</title>
-		<link>https://techcrunch.com/2018/10/29/europes-most-popular-ride-hailing-service-is-launching-e-scooters/</link>
-		<comments>https://techcrunch.com/2018/10/29/europes-most-popular-ride-hailing-service-is-launching-e-scooters/#comments</comments>
-		<pubDate>Mon, 29 Oct 2018 22:39:06 +0000</pubDate>
-		<dc:creator><![CDATA[Kate Clark]]></dc:creator>
-				<category><![CDATA[Europe]]></category>
-		<category><![CDATA[TC]]></category>
-		<category><![CDATA[Transportation]]></category>
-		<category><![CDATA[bird]]></category>
-		<category><![CDATA[careem]]></category>
-		<category><![CDATA[Daimler]]></category>
-		<category><![CDATA[deutsche telekom]]></category>
-		<category><![CDATA[electric scooters]]></category>
-		<category><![CDATA[hailo]]></category>
-		<category><![CDATA[lime]]></category>
-		<category><![CDATA[myTaxi]]></category>
-		<category><![CDATA[Taxify]]></category>
-		<category><![CDATA[Uber]]></category>
+			<title>Europe’s most popular ride-hailing service is launching e-scooters</title>
+			<link>https://techcrunch.com/2018/10/29/europes-most-popular-ride-hailing-service-is-launching-e-scooters/</link>
+			<comments>https://techcrunch.com/2018/10/29/europes-most-popular-ride-hailing-service-is-launching-e-scooters/#comments</comments>
+			<pubDate>Mon, 29 Oct 2018 22:39:06 +0000</pubDate>
+			<dc:creator><![CDATA[Kate Clark]]></dc:creator>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[TC]]></category>
+			<category><![CDATA[Transportation]]></category>
+			<category><![CDATA[bird]]></category>
+			<category><![CDATA[careem]]></category>
+			<category><![CDATA[Daimler]]></category>
+			<category><![CDATA[deutsche telekom]]></category>
+			<category><![CDATA[electric scooters]]></category>
+			<category><![CDATA[hailo]]></category>
+			<category><![CDATA[lime]]></category>
+			<category><![CDATA[myTaxi]]></category>
+			<category><![CDATA[Taxify]]></category>
+			<category><![CDATA[Uber]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1738852</guid>
-		<description><![CDATA[Daimler-owned ride-hailing company mytaxi will release a fleet of e-scooters in Southern Europe later this year.]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://de.mytaxi.com/index.html">Mytaxi</a>, the Daimler-owned Uber competitor, announced today it would launch an electric scooter pilot in Southern Europe later this year, with a full international roll-out planned for 2019.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1738852</guid>
+			<description><![CDATA[Daimler-owned ride-hailing company mytaxi will release a fleet of e-scooters in Southern Europe later this year.]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://de.mytaxi.com/index.html">Mytaxi</a>, the Daimler-owned Uber competitor, announced today it would launch an electric scooter pilot in Southern Europe later this year, with a full international roll-out planned for 2019.</p>
 <p><a class="crunchbase-link" href="https://crunchbase.com/organization/daimler" target="_blank" data-type="organization" data-entity="daimler">Daimler <span class="crunchbase-tooltip-indicator"></span></a> initially took a <a href="https://techcrunch.com/2012/01/23/maker-of-taxi-ordering-app-mytaxi-raises-e10-million-from-daimler-lars-hinrichs/?_ga=2.28100604.178089721.1540829851-1551174520.1535404491">15 percent stake</a> in Hamburg-based mytaxi in 2012, adding the company to its portfolio of ridesharing businesses that also includes<a href="https://techcrunch.com/2017/12/21/daimler-acquires-majority-stake-in-french-uber-competitor/"> Chauffeur Privé</a>, <a href="https://www.careem.com/">Careem</a>, <a href="https://techcrunch.com/2017/09/28/daimler-acquires-german-p2p-carpooling-startup-flinc/">Flinc</a>, <a href="https://techcrunch.com/2018/03/01/daimler-buys-remaining-25-stake-of-car-sharing-startup-car2go-from-europcar-for-85m/">car2go</a> and <a href="https://techcrunch.com/2016/07/26/confirmed-hailo-sells-60-of-company-to-daimler-as-it-merges-with-mytaxi/">Hailo</a>, which <a href="https://techcrunch.com/2016/07/26/confirmed-hailo-sells-60-of-company-to-daimler-as-it-merges-with-mytaxi/">merged</a> with mytaxi in 2016.</p>
 <p>The company has yet to unveil its scooters&#8217; brand name, but says it will use the Segway ES4 Sharing Scooter.</p>
 <p style="font-weight: 400;">“The E-scooter market is highly dynamic and the interest from users is booming in a lot of international cities,&#8221; mytaxi chief executive officer Eckart Diepenhorst said in a statement. &#8220;We see a significant growth potential for mytaxi here and a perfect complement to our existing taxi business as E-scooters are mostly used for short tours of around one to two kilometers. Although ride lengths strongly vary between taxi and scooter business, we think about potential combinations of both areas.&#8221;</p>
@@ -819,28 +830,29 @@
 <div class="embed breakout">
 <blockquote class="wp-embedded-content" data-secret="5NsswSVY08"><p><a href="https://techcrunch.com/2018/06/23/are-scooter-startups-really-worth-billions/">Are scooter startups really worth billions?</a></p></blockquote>
 <p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" src="https://techcrunch.com/2018/06/23/are-scooter-startups-really-worth-billions/embed/#?secret=5NsswSVY08" data-secret="5NsswSVY08" width="800" height="450" title="&#8220;Are scooter startups really worth billions?&#8221; &#8212; TechCrunch" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/29/europes-most-popular-ride-hailing-service-is-launching-e-scooters/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1738852</post-id>	</item>
+			<slash:comments>1</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1738852</post-id>
+		</item>
 		<item>
-		<title>Unu raises $12 million to build new electric scooter</title>
-		<link>https://techcrunch.com/2018/10/29/unu-raises-12-million-to-build-new-electric-scooter/</link>
-		<comments>https://techcrunch.com/2018/10/29/unu-raises-12-million-to-build-new-electric-scooter/#comments</comments>
-		<pubDate>Mon, 29 Oct 2018 19:12:57 +0000</pubDate>
-		<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
-				<category><![CDATA[Automotive]]></category>
-		<category><![CDATA[Europe]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[Transportation]]></category>
-		<category><![CDATA[electric scooters]]></category>
-		<category><![CDATA[Scooter]]></category>
-		<category><![CDATA[UNU]]></category>
-		<category><![CDATA[Unu Motors]]></category>
+			<title>Unu raises $12 million to build new electric scooter</title>
+			<link>https://techcrunch.com/2018/10/29/unu-raises-12-million-to-build-new-electric-scooter/</link>
+			<comments>https://techcrunch.com/2018/10/29/unu-raises-12-million-to-build-new-electric-scooter/#comments</comments>
+			<pubDate>Mon, 29 Oct 2018 19:12:57 +0000</pubDate>
+			<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
+			<category><![CDATA[Automotive]]></category>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[Startups]]></category>
+			<category><![CDATA[Transportation]]></category>
+			<category><![CDATA[electric scooters]]></category>
+			<category><![CDATA[Scooter]]></category>
+			<category><![CDATA[UNU]]></category>
+			<category><![CDATA[Unu Motors]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1738764</guid>
-		<description><![CDATA[German startup Unu raised a $12 million funding round led by Ponooc, with existing investors Capnamic Ventures, Iris Capital, Michael Baum and NRW.BANK also participating. The company has been building electric scooters (the motorcycle kind) and is working on new products and services. For the past five years, Unu has sold 10,000 scooters. The market [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">German startup <a href="https://unumotors.com">Unu</a> raised a $12 million funding round led by Ponooc, with existing investors Capnamic Ventures, Iris Capital, Michael Baum and NRW.BANK also participating. The company has been building electric scooters (the motorcycle kind) and is working on new products and services.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1738764</guid>
+			<description><![CDATA[German startup Unu raised a $12 million funding round led by Ponooc, with existing investors Capnamic Ventures, Iris Capital, Michael Baum and NRW.BANK also participating. The company has been building electric scooters (the motorcycle kind) and is working on new products and services. For the past five years, Unu has sold 10,000 scooters. The market [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">German startup <a href="https://unumotors.com">Unu</a> raised a $12 million funding round led by Ponooc, with existing investors Capnamic Ventures, Iris Capital, Michael Baum and NRW.BANK also participating. The company has been building electric scooters (the motorcycle kind) and is working on new products and services.</p>
 <p>For the past five years, Unu has sold 10,000 scooters. The market for electric scooters is quite different depending on your country. In parts of Asia, they are massively popular and are slowly overtaking gas-powered scooters. You can see more and more electric scooters in Europe, but it’s still uncharted territories for the most part.</p>
 <p>Unu is one of the successful European manufacturers, with <a href="https://www.govecsgroup.com/en/">Govecs</a>, BMW and others. Compared to electric cars, electric scooters present a massive advantage — weight. It’s much more energy-efficient to power a scooter compared to a full-fledged car.</p>
 <p>That’s why batteries remain relatively small. You can open the battery compartment, pull the battery and plug it in at home. It’s quite heavy, as Unu’s battery weighs around 9 kg (nearly 20 pounds). But it’s fine if you just need to carry your battery to your home and plug it in overnight every now and then.</p>
@@ -848,31 +860,33 @@
 <p>There’s a huge market opportunity as scooter-sharing companies are booming in Europe. In Paris alone, Cityscoot and Coup have flooded the streets with scooters from Govecs and <a href="https://www.gogoro.com">Gogoro</a>. There are many other companies working on similar services across Europe.</p>
 <p>If Unu could convince a company to buy some of their scooters for their fleet, that could lead to thousands of sales in no time. The company is working on multiple partnerships. Now let’s see if Unu plans to create its own service in the future and work on other types of vehicles.</p>
 <p><img class="breakout aligncenter size-full wp-image-1738766" src="https://techcrunch.com/wp-content/uploads/2018/10/unu-founders_2.jpg" alt="" width="1024" height="683" /></p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/29/unu-raises-12-million-to-build-new-electric-scooter/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1738764</post-id>	</item>
+			<slash:comments>1</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1738764</post-id>
+		</item>
 		<item>
-		<title>LoopMe closes $17M growth investment led by BGF to expand further into the US</title>
-		<link>https://techcrunch.com/2018/10/29/loopme-closes-17m-growth-investment-led-by-bgf-to-expand-further-into-the-us/</link>
-		<comments>https://techcrunch.com/2018/10/29/loopme-closes-17m-growth-investment-led-by-bgf-to-expand-further-into-the-us/#respond</comments>
-		<pubDate>Mon, 29 Oct 2018 17:25:36 +0000</pubDate>
-		<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
-				<category><![CDATA[Europe]]></category>
-		<category><![CDATA[TC]]></category>
-		<category><![CDATA[loopme]]></category>
+			<title>LoopMe closes $17M growth investment led by BGF to expand further into the US</title>
+			<link>https://techcrunch.com/2018/10/29/loopme-closes-17m-growth-investment-led-by-bgf-to-expand-further-into-the-us/</link>
+			<comments>https://techcrunch.com/2018/10/29/loopme-closes-17m-growth-investment-led-by-bgf-to-expand-further-into-the-us/#respond</comments>
+			<pubDate>Mon, 29 Oct 2018 17:25:36 +0000</pubDate>
+			<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
+			<category><![CDATA[Europe]]></category>
+			<category><![CDATA[TC]]></category>
+			<category><![CDATA[loopme]]></category>
 
-		<guid isPermaLink="false">https://techcrunch.com/?p=1738672</guid>
-		<description><![CDATA[In 2013 LoopMe was a start-up which started out trying to solve the problem of intrusive ads on a mobile screen by consolidating them into an “ad inbox”. In 2014 they dumped that idea to become a mobile video ad business, using AI to retarget ad campaigns instead of ad teams. The pivot worked and [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p id="speakable-summary">In 2013 <a class="crunchbase-link" href="https://crunchbase.com/organization/loopme" target="_blank" data-type="organization" data-entity="loopme">LoopMe <span class="crunchbase-tooltip-indicator"></span></a> was a start-up which started out trying to solve the problem of intrusive ads on a mobile screen by consolidating them into an “ad inbox”. In 2014 they dumped that idea to become a mobile video ad business, using AI to retarget ad campaigns instead of ad teams. The pivot worked and <a href="https://techcrunch.com/2015/12/16/loopme-pivots-from-mobile-ad-inbox-towards-ai-driven-video-closes-7m/">in 2015</a> they raised $7M to expand.</p>
+			<guid isPermaLink="false">https://techcrunch.com/?p=1738672</guid>
+			<description><![CDATA[In 2013 LoopMe was a start-up which started out trying to solve the problem of intrusive ads on a mobile screen by consolidating them into an “ad inbox”. In 2014 they dumped that idea to become a mobile video ad business, using AI to retarget ad campaigns instead of ad teams. The pivot worked and [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p id="speakable-summary">In 2013 <a class="crunchbase-link" href="https://crunchbase.com/organization/loopme" target="_blank" data-type="organization" data-entity="loopme">LoopMe <span class="crunchbase-tooltip-indicator"></span></a> was a start-up which started out trying to solve the problem of intrusive ads on a mobile screen by consolidating them into an “ad inbox”. In 2014 they dumped that idea to become a mobile video ad business, using AI to retarget ad campaigns instead of ad teams. The pivot worked and <a href="https://techcrunch.com/2015/12/16/loopme-pivots-from-mobile-ad-inbox-towards-ai-driven-video-closes-7m/">in 2015</a> they raised $7M to expand.</p>
 <p>They’ve now expanded again to become a business offering AI-driven brand advertising solutions using mobile data to optimize ad campaigns to things like purchase intent, store visits or sales. Today they’ve closed a new $17M investment led by BGF, a UK growth investor, alongside existing VC investors. The funding will be used to boost the platform and focus on the US market. The investment was led for BGF by Sarah Ledwidge, Tom McDonnell and Tim Rea.</p>
 <p>The new investment takes the company’s total to $32M funding from global investors including HV Holtzbrinck Ventures, Harbert European Growth Capital, Open Ocean and Impulse VC.</p>
 <p>LoopMe’s analytics suite is aimed at brands delving into customer audiences and planning across the marketing mix.</p>
 <p>CEO Stephen Upstone said in a statement that: “Brands need marketing solutions which deliver a business impact &#8211; sales, customers in stores and strong brand sentiment. This additional funding will allow us to bring our award-winning technology, which is proven to move the needle on these KPIs, to brands and agencies worldwide”.</p>
 <p>LoopMe’s technology has been used by brands including Norwegian Air, Jockey, Ben &amp; Jerry’s, Microsoft and Audi, who use it to run mobile ad campaigns in the US, Europe and Asia.</p>
-]]></content:encoded>
+]]>			</content:encoded>
 			<wfw:commentRss>https://techcrunch.com/2018/10/29/loopme-closes-17m-growth-investment-led-by-bgf-to-expand-further-into-the-us/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">1738672</post-id>	</item>
+			<slash:comments>0</slash:comments>
+			<post-id xmlns="com-wordpress:feed-additions:1">1738672</post-id>
+		</item>
 	</channel>
 </rss>
