@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<style>
+    #div_title {
+        background: rgba(68, 127, 236, 0.986);
+        color: white;
+        font-size: 20;
+    }
+</style>
+
+<body>
+    <h1>
+        <div id="div_title">RSS Ticker
+            <span id="title"></span>
+        </div>
+    </h1>
+    <div>
+        <b>link:</b> <span id="link"></span><br>
+        <b>From:</b> <span id="from"></span><br>
+        <b>Message:</b> <span id="message"></span>
+    </div>
+
+    <script>
+        if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        }
+        else {// code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                xmlDoc = JSON.parse(this.responseText);
+                // xmlDoc = xmlhttp.responseXML;
+                document.getElementById("title").innerHTML =
+                    xmlDoc[0].title;
+                document.getElementById("link").innerHTML =
+                    xmlDoc.getElementsByTagName("link")[0].childNodes[0].nodeValue;
+                document.getElementById("from").innerHTML =
+                    xmlDoc.getElementsByTagName("from")[0].childNodes[0].nodeValue;
+                document.getElementById("message").innerHTML =
+                    xmlDoc.getElementsByTagName("body")[0].childNodes[0].nodeValue;
+            }
+        };
+        xmlhttp.open("GET", "http://flobe-online.de/xml-proxy.php?url=http://feeds.feedburner.com/HowToGeek", false);
+        xmlhttp.send();
+
+    </script>
+
+</body>
+
+</html>

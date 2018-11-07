@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+    function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
+
+//usage:
+readTextFile("http://flobe-online.de/xml-proxy.php?url=http://feeds.feedburner.com/HowToGeek", function(text){
+    var data = JSON.parse(text);
+    console.log(data);
+});
+    </script>
+</head>
+<body>
+
+    <div id="myDiv"><h2>使用 AJAX 修改文本内容</h2></div>
+    <button type="button" onclick="readTextFile()">修改内容</button> 
+
+</body>
+</html>

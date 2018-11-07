@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>New on MIT Technology Review</title>
+		<link>https://www.technologyreview.com/</link>
+		<atom:link href="https://www.technologyreview.com/stories.rss" rel="self" type="application/rss+xml" />
+		<pubDate>Tue, 06 Nov 2018 14:50:05 GMT</pubDate>
+		<description></description>
+		<language>en</language>
+		<image>
+			<title>MIT Technology Review</title>
+			<url>https://www.technologyreview.com/_/img/stacked-logo-v2--125x62.png</url>
+			<link>https://www.technologyreview.com/</link>
+		</image>
+		<item>
+			<title>The UK’s information watchdog has called out “a disturbing disregard for voters’ personal privacy”</title>
+			<link>https://www.technologyreview.com/the-download/612385/the-uks-information-watchdog-has-called-out-a-disturbing-disregard-for-voters/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/the-download/612385/the-uks-information-watchdog-has-called-out-a-disturbing-disregard-for-voters/</guid>
+			<pubDate>Tue, 06 Nov 2018 12:58:24 GMT</pubDate>
+		</item>
+		<item>
+			<title>Master any classic video game (with help from an AI algorithm)</title>
+			<link>https://www.technologyreview.com/the-download/612384/master-any-classic-video-game-with-help-from-an-ai-algorithm/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/the-download/612384/master-any-classic-video-game-with-help-from-an-ai-algorithm/</guid>
+			<pubDate>Mon, 05 Nov 2018 22:03:28 GMT</pubDate>
+		</item>
+		<item>
+			<title>A life-saving gene drug could hold families hostage with a $4 million price tag</title>
+			<link>https://www.technologyreview.com/the-download/612383/a-life-saving-gene-drug-could-hold-families-hostage-with-a-4-million-price-tag/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/the-download/612383/a-life-saving-gene-drug-could-hold-families-hostage-with-a-4-million-price-tag/</guid>
+			<pubDate>Mon, 05 Nov 2018 18:33:44 GMT</pubDate>
+		</item>
+		<item>
+			<title>This robotic cowboy is waving trash bags to keep people from being kicked by cows</title>
+			<link>https://www.technologyreview.com/the-download/612382/this-robotic-cowboy-is-waving-trash-bags-to-keep-people-from-being-kicked-by/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/the-download/612382/this-robotic-cowboy-is-waving-trash-bags-to-keep-people-from-being-kicked-by/</guid>
+			<pubDate>Mon, 05 Nov 2018 18:22:54 GMT</pubDate>
+		</item>
+		<item>
+			<title>The quirky ways AI researchers gather data to feed their algorithms</title>
+			<description>Here are four of the most creative data collection methods used by experts at the leading annual conference on natural-language processing.</description>
+			<link>https://www.technologyreview.com/s/612378/the-quirky-ways-ai-researchers-gather-data-to-feed-their-algorithms/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/s/612378/the-quirky-ways-ai-researchers-gather-data-to-feed-their-algorithms/</guid>
+			<pubDate>Mon, 05 Nov 2018 18:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Google has enlisted NASA to help it prove quantum supremacy within months</title>
+			<description>The firm will pit its Bristlecone quantum processor against a classical supercomputer early next year and see which comes out on top.</description>
+			<link>https://www.technologyreview.com/s/612381/google-has-enlisted-nasa-to-help-it-prove-quantum-supremacy-within-months/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/s/612381/google-has-enlisted-nasa-to-help-it-prove-quantum-supremacy-within-months/</guid>
+			<pubDate>Mon, 05 Nov 2018 14:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>The Best of the Physics arXiv (week ending November 3, 2018)</title>
+			<description>This week’s most thought-provoking papers from the Physics arXiv.</description>
+			<link>https://www.technologyreview.com/s/612376/the-best-of-the-physics-arxiv-week-ending-november-3-2018/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/s/612376/the-best-of-the-physics-arxiv-week-ending-november-3-2018/</guid>
+			<pubDate>Sat, 03 Nov 2018 12:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Worrying new holes have been uncovered in US electoral cyberdefenses</title>
+			<link>https://www.technologyreview.com/the-download/612379/worrying-new-holes-have-been-uncovered-in-the-uss-electoral-cyber-defenses/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/the-download/612379/worrying-new-holes-have-been-uncovered-in-the-uss-electoral-cyber-defenses/</guid>
+			<pubDate>Fri, 02 Nov 2018 19:59:39 GMT</pubDate>
+		</item>
+		<item>
+			<title>Internet freedom around the world has fallen for the 8th year in a row</title>
+			<link>https://www.technologyreview.com/the-download/612377/internet-freedom-around-the-world-has-fallen-for-the-8th-year-in-a-row/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/the-download/612377/internet-freedom-around-the-world-has-fallen-for-the-8th-year-in-a-row/</guid>
+			<pubDate>Fri, 02 Nov 2018 14:21:10 GMT</pubDate>
+		</item>
+		<item>
+			<title>Using Wi-Fi to “see” behind closed doors is easier than anyone thought</title>
+			<description>With nothing but a smartphone and some clever computation, researchers can exploit ambient signals to track individuals in their own homes.</description>
+			<link>https://www.technologyreview.com/s/612375/using-wi-fi-to-see-behind-closed-doors-is-easier-than-anyone-thought/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/s/612375/using-wi-fi-to-see-behind-closed-doors-is-easier-than-anyone-thought/</guid>
+			<pubDate>Fri, 02 Nov 2018 11:12:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Deepfake-busting apps can spot even a single pixel out of place</title>
+			<description>Two startups are using algorithms to track when images are edited—from the moment they’re taken.</description>
+			<link>https://www.technologyreview.com/s/612357/deepfake-busting-apps-can-spot-even-a-single-pixel-out-of-place/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/s/612357/deepfake-busting-apps-can-spot-even-a-single-pixel-out-of-place/</guid>
+			<pubDate>Thu, 01 Nov 2018 16:50:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Ethereum founder Vitalik Buterin says his creation can’t succeed unless he takes a step back</title>
+			<description>At Ethereum’s annual developer conference, its founder tells us why his technology can only be truly decentralized if it stops depending on him.</description>
+			<link>https://www.technologyreview.com/s/612372/ethereums-founder-vitalik-buterin-says-his-creation-cant-succeed-unless-he-takes-a-step/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/s/612372/ethereums-founder-vitalik-buterin-says-his-creation-cant-succeed-unless-he-takes-a-step/</guid>
+			<pubDate>Thu, 01 Nov 2018 14:23:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Google employees are staging global walkouts over the firm’s treatment of women</title>
+			<link>https://www.technologyreview.com/the-download/612371/google-employees-are-staging-global-walkouts-over-the-firms-treatment-of-women/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/the-download/612371/google-employees-are-staging-global-walkouts-over-the-firms-treatment-of-women/</guid>
+			<pubDate>Thu, 01 Nov 2018 11:22:03 GMT</pubDate>
+		</item>
+		<item>
+			<title>The world’s first robot delivery service is launching in the UK</title>
+			<link>https://www.technologyreview.com/the-download/612370/the-worlds-first-robot-delivery-service-is-launching-in-the-uk/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/the-download/612370/the-worlds-first-robot-delivery-service-is-launching-in-the-uk/</guid>
+			<pubDate>Thu, 01 Nov 2018 11:08:56 GMT</pubDate>
+		</item>
+		<item>
+			<title>You can now hire a video game coach to turn you into a Fortnite expert</title>
+			<description>With the growth in e-sports, more gamers are investing in some personal tutoring to help them progress. We paid a Fortnite coach to teach us his top tips.</description>
+			<link>https://www.technologyreview.com/s/612368/i-hired-a-video-game-coach-to-give-me-the-edge-in-fortnite/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/s/612368/i-hired-a-video-game-coach-to-give-me-the-edge-in-fortnite/</guid>
+			<pubDate>Thu, 01 Nov 2018 08:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>An AI physicist can derive the natural laws of imagined universes</title>
+			<description>Teaching an AI system the tricks physicists use to understand the real world produces an extraordinarily powerful machine.</description>
+			<link>https://www.technologyreview.com/s/612358/an-ai-physicist-can-derive-the-natural-laws-of-imagined-universes/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/s/612358/an-ai-physicist-can-derive-the-natural-laws-of-imagined-universes/</guid>
+			<pubDate>Thu, 01 Nov 2018 08:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Three paralyzed men have walked again after receiving electric jolts to the spine</title>
+			<link>https://www.technologyreview.com/the-download/612360/three-paralysed-men-have-walked-again-after-receiving-electric-jolts-to-the/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/the-download/612360/three-paralysed-men-have-walked-again-after-receiving-electric-jolts-to-the/</guid>
+			<pubDate>Wed, 31 Oct 2018 18:16:17 GMT</pubDate>
+		</item>
+		<item>
+			<title>These autonomous, self-assembling robots can join forces to solve problems</title>
+			<link>https://www.technologyreview.com/the-download/612366/these-autonomous-self-assembling-robots-can-join-forces-to-solve-problems/</link>
+			<guid isPermaLink="true">https://www.technologyreview.com/the-download/612366/these-autonomous-self-assembling-robots-can-join-forces-to-solve-problems/</guid>
+			<pubDate>Wed, 31 Oct 2018 18:00:44 GMT</pubDate>
+		</item>
+	</channel>
+</rss>

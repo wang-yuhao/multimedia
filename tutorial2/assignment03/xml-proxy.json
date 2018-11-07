@@ -1,0 +1,230 @@
+{
+    "@attributes": {
+        "version": "2.0"
+    },
+    "channel": {
+        "title": "How-To Geek",
+        "link": "https:\/\/www.howtogeek.com",
+        "description": "For Geeks, By Geeks",
+        "pubDate": "Tue, 06 Nov 2018 14:00:00 +0000",
+        "language": "en-us",
+        "generator": "https:\/\/wordpress.org\/?v=4.9.5",
+        "image": {
+            "link": "https:\/\/www.howtogeek.com\/",
+            "url": "https:\/\/www.howtogeek.com\/geekers\/up\/sshot4ebc09559ecbf.jpg",
+            "title": "How-To Geek"
+        },
+        "item": [
+            {
+                "title": "Everything You Need For A Mobile Audiophile Setup",
+                "link": "https:\/\/www.reviewgeek.com\/8350\/everything-you-need-for-a-mobile-audiophile-setup\/",
+                "pubDate": "Tue, 06 Nov 2018 13:00:45 +0000",
+                "guid": "https:\/\/www.reviewgeek.com\/8350\/everything-you-need-for-a-mobile-audiophile-setup\/",
+                "description": {}
+            },
+            {
+                "title": "How to Use My Photo Stream on Your iPhone and iPad",
+                "link": "https:\/\/www.howtogeek.com\/394063\/how-to-use-my-photo-stream-on-your-iphone-and-ipad\/",
+                "pubDate": "Tue, 06 Nov 2018 14:00:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=394063",
+                "description": {}
+            },
+            {
+                "title": "How to Get the Most from Autofocus With Your Camera",
+                "link": "https:\/\/www.howtogeek.com\/394018\/how-to-get-the-most-from-autofocus-with-your-camera\/",
+                "pubDate": "Tue, 06 Nov 2018 13:00:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=394018",
+                "description": {}
+            },
+            {
+                "title": "Geek Trivia: Which Spacecraft Was The First To Autonomously Return Extraterrestrial Samples to Earth?",
+                "link": "https:\/\/www.howtogeek.com\/trivia\/which-spacecraft-was-the-first-to-autonomously-return-extraterrestrial-samples-to-earth\/",
+                "pubDate": "Tue, 06 Nov 2018 07:02:00 +0000",
+                "guid": "http:\/\/www.howtogeek.com\/?post_type=trivia&p=106693",
+                "description": {}
+            },
+            {
+                "title": "Barnes & Noble Announces 10.1-Inch NOOK with Google Play for $130",
+                "link": "https:\/\/www.reviewgeek.com\/9401\/barnes-noble-announces-10-1-inch-nook-with-google-play-for-130\/",
+                "pubDate": "Mon, 05 Nov 2018 20:28:47 +0000",
+                "guid": "https:\/\/www.reviewgeek.com\/9401\/barnes-noble-announces-10-1-inch-nook-with-google-play-for-130\/",
+                "description": {}
+            },
+            {
+                "title": "The Best Gloves To Keep Your Freezing Hands Warm In The Office",
+                "link": "https:\/\/www.reviewgeek.com\/9244\/the-best-gloves-to-keep-your-freezing-hands-warm-in-the-office\/",
+                "pubDate": "Mon, 05 Nov 2018 19:00:41 +0000",
+                "guid": "https:\/\/www.reviewgeek.com\/9244\/the-best-gloves-to-keep-your-freezing-hands-warm-in-the-office\/",
+                "description": {}
+            },
+            {
+                "title": "Best Buy Offers A Free Nest Cam Indoor ($200) With A Pixel 3 Purchase",
+                "link": "https:\/\/www.reviewgeek.com\/9390\/best-buy-offers-a-free-nest-cam-indoor-200-with-a-pixel-3-purchase\/",
+                "pubDate": "Mon, 05 Nov 2018 18:17:31 +0000",
+                "guid": "https:\/\/www.reviewgeek.com\/9390\/best-buy-offers-a-free-nest-cam-indoor-200-with-a-pixel-3-purchase\/",
+                "description": {}
+            },
+            {
+                "title": "You Can\u2019t Trust BitLocker to Encrypt Your SSD on Windows 10",
+                "link": "https:\/\/www.howtogeek.com\/fyi\/you-cant-trust-bitlocker-to-encrypt-your-ssd-on-windows-10\/",
+                "pubDate": "Mon, 05 Nov 2018 23:13:12 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?post_type=fyi&p=394134",
+                "description": {}
+            },
+            {
+                "title": "Google Killed Chrome Apps, But You Can Easily Make Your Own",
+                "link": "https:\/\/www.howtogeek.com\/fyi\/google-killed-chrome-apps-but-you-can-easily-make-your-own\/",
+                "pubDate": "Mon, 05 Nov 2018 21:49:19 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?post_type=fyi&p=394114",
+                "description": {}
+            },
+            {
+                "title": "The Motorola One is Coming to the US on November 9th for $399",
+                "link": "https:\/\/www.reviewgeek.com\/9375\/the-motorola-one-is-coming-to-the-us-on-november-9th-for-399\/",
+                "pubDate": "Mon, 05 Nov 2018 16:37:52 +0000",
+                "guid": "https:\/\/www.reviewgeek.com\/9375\/the-motorola-one-is-coming-to-the-us-on-november-9th-for-399\/",
+                "description": {}
+            },
+            {
+                "title": "Microsoft Broke Windows 10\u2019s File Associations With a Botched Update",
+                "link": "https:\/\/www.howtogeek.com\/fyi\/microsoft-broke-windows-10s-file-associations-with-a-botched-update\/",
+                "pubDate": "Mon, 05 Nov 2018 21:03:03 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?post_type=fyi&p=394095",
+                "description": {}
+            },
+            {
+                "title": "Harry Potter Kano Coding Kit Review: A Magical Experience",
+                "link": "https:\/\/www.reviewgeek.com\/9090\/harry-potter-kano-coding-kit-review-a-magical-experience\/",
+                "pubDate": "Mon, 05 Nov 2018 16:00:22 +0000",
+                "guid": "https:\/\/www.reviewgeek.com\/9090\/harry-potter-kano-coding-kit-review-a-magical-experience\/",
+                "description": {}
+            },
+            {
+                "title": "How to Set Up and Manage Apple Pay on Your Mac",
+                "link": "https:\/\/www.howtogeek.com\/393780\/how-to-set-up-and-manage-apple-pay-on-your-mac\/",
+                "pubDate": "Mon, 05 Nov 2018 20:00:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=393780",
+                "description": {}
+            },
+            {
+                "title": "A New SSD Is The Cheap Upgrade Your Old Mac Mini Craves",
+                "link": "https:\/\/www.reviewgeek.com\/9351\/a-new-ssd-is-the-cheap-upgrade-your-old-mac-mini-craves\/",
+                "pubDate": "Mon, 05 Nov 2018 13:00:16 +0000",
+                "guid": "https:\/\/www.reviewgeek.com\/9351\/a-new-ssd-is-the-cheap-upgrade-your-old-mac-mini-craves\/",
+                "description": {}
+            },
+            {
+                "title": "How to Prevent PowerPoint from Automatically Resizing Text",
+                "link": "https:\/\/www.howtogeek.com\/393935\/how-to-prevent-powerpoint-from-resizing-text\/",
+                "pubDate": "Mon, 05 Nov 2018 16:23:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=393935",
+                "description": {}
+            },
+            {
+                "title": "How to Change the Windows 10 Update Download Folder Location",
+                "link": "https:\/\/www.howtogeek.com\/393423\/how-to-change-windows-10-updates-download-folder-location\/",
+                "pubDate": "Mon, 05 Nov 2018 15:24:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=393423",
+                "description": {}
+            },
+            {
+                "title": "The Best IFTTT Recipes to Use with Your Wink Hub",
+                "link": "https:\/\/www.howtogeek.com\/393405\/the-best-ifttt-recipes-to-use-with-your-wink-hub\/",
+                "pubDate": "Mon, 05 Nov 2018 14:00:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=393405",
+                "description": {}
+            },
+            {
+                "title": "How I Work From Home: Cam\u2019s Pain Cave of Productivity",
+                "link": "https:\/\/www.howtogeek.com\/370334\/how-i-work-from-home-cam%e2%80%99s-pain-cave-of-productivity\/",
+                "pubDate": "Mon, 05 Nov 2018 13:00:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=370334",
+                "description": {}
+            },
+            {
+                "title": "HTG Explains: What Are All Those Advanced Power Settings in Windows?",
+                "link": "https:\/\/www.howtogeek.com\/393547\/htg-explains-what-are-all-those-advanced-power-settings-in-windows\/",
+                "pubDate": "Mon, 05 Nov 2018 11:40:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=393547",
+                "description": {}
+            },
+            {
+                "title": "Geek Trivia: On Star Trek, The Ship\u2019s Sliding Doors Were Operated By?",
+                "link": "https:\/\/www.howtogeek.com\/trivia\/on-star-trek-the-ships-sliding-doors-were-operated-by\/",
+                "pubDate": "Mon, 05 Nov 2018 07:02:35 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?post_type=trivia&p=368511",
+                "description": {}
+            },
+            {
+                "title": "Some Windows 10 Clocks Didn\u2019t \u201cFall Back,\u201d Here\u2019s How to Fix It",
+                "link": "https:\/\/www.howtogeek.com\/fyi\/some-windows-10-clocks-didn%e2%80%99t-%e2%80%9cfall-back%e2%80%9d-here%e2%80%99s-how-to-fix-it\/",
+                "pubDate": "Sun, 04 Nov 2018 20:23:30 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?post_type=fyi&p=393919",
+                "description": {}
+            },
+            {
+                "title": "The Best Amazon Echo Dot Mounts for Your Walls and Outlets",
+                "link": "https:\/\/www.reviewgeek.com\/9020\/the-best-amazon-echo-dot-mounts-for-your-walls-and-outlets\/",
+                "pubDate": "Sun, 04 Nov 2018 13:00:11 +0000",
+                "guid": "https:\/\/www.reviewgeek.com\/9020\/the-best-amazon-echo-dot-mounts-for-your-walls-and-outlets\/",
+                "description": {}
+            },
+            {
+                "title": "The Best Free Apps for Creating a Digital Photo Collage",
+                "link": "https:\/\/www.howtogeek.com\/368860\/how-to-make-a-digital-photo-collage\/",
+                "pubDate": "Sun, 04 Nov 2018 13:00:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=368860",
+                "description": {}
+            },
+            {
+                "title": "Already a Spotify Fan? Here are 6 New Features You Might Have Missed",
+                "link": "https:\/\/www.howtogeek.com\/393291\/already-a-spotify-fan-here-are-6-new-features-you-might-have-missed\/",
+                "pubDate": "Sun, 04 Nov 2018 11:40:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=393291",
+                "description": {}
+            },
+            {
+                "title": "Geek Trivia: Which Game Company Released a Game Parodying Their Eventual Demise?",
+                "link": "https:\/\/www.howtogeek.com\/trivia\/which-game-company-released-a-game-parodying-their-eventual-demise\/",
+                "pubDate": "Sun, 04 Nov 2018 07:02:00 +0000",
+                "guid": "http:\/\/www.howtogeek.com\/?post_type=trivia&p=107923",
+                "description": {}
+            },
+            {
+                "title": "The Best Ice Molds For Your Craft Cocktails and Delicious Whiskey",
+                "link": "https:\/\/www.reviewgeek.com\/9162\/the-best-ice-molds-for-your-craft-cocktails-and-delicious-whiskey\/",
+                "pubDate": "Sat, 03 Nov 2018 12:00:17 +0000",
+                "guid": "https:\/\/www.reviewgeek.com\/9162\/the-best-ice-molds-for-your-craft-cocktails-and-delicious-whiskey\/",
+                "description": {}
+            },
+            {
+                "title": "The Best Free DJ Apps",
+                "link": "https:\/\/www.howtogeek.com\/392423\/the-best-free-dj-apps\/",
+                "pubDate": "Sat, 03 Nov 2018 12:00:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=392423",
+                "description": {}
+            },
+            {
+                "title": "Geek Trivia: Which Iconic Sci-Fi Film Was Snubbed For An Academy Award Over CGI Effects?",
+                "link": "https:\/\/www.howtogeek.com\/trivia\/which-iconic-sci-fi-film-was-snubbed-for-an-academy-award-over-cgi-effects\/",
+                "pubDate": "Sat, 03 Nov 2018 06:02:00 +0000",
+                "guid": "http:\/\/www.howtogeek.com\/?post_type=trivia&p=107246",
+                "description": {}
+            },
+            {
+                "title": "5 Action RPGs to Fill The Diablo-Sized Hole In Your PC Gaming Heart",
+                "link": "https:\/\/www.reviewgeek.com\/9335\/5-action-rpgs-to-fill-the-diablo-sized-hole-in-your-pc-gaming-heart\/",
+                "pubDate": "Fri, 02 Nov 2018 23:09:37 +0000",
+                "guid": "https:\/\/www.reviewgeek.com\/9335\/5-action-rpgs-to-fill-the-diablo-sized-hole-in-your-pc-gaming-heart\/",
+                "description": {}
+            },
+            {
+                "title": "How to Block a Website in Safari on iPhone and iPad",
+                "link": "https:\/\/www.howtogeek.com\/393460\/how-to-block-a-website-in-safari-on-iphone-and-ipad\/",
+                "pubDate": "Fri, 02 Nov 2018 19:00:00 +0000",
+                "guid": "https:\/\/www.howtogeek.com\/?p=393460",
+                "description": {}
+            }
+        ]
+    }
+}
