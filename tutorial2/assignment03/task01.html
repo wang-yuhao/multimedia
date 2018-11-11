@@ -1,62 +1,104 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+</head>
+
 <style>
     #div_title {
         background: rgba(68, 127, 236, 0.986);
         color: white;
-        font-size: 20;
+        font-size: 15mm;
+        height: 20mm;
         /* text-align: center; */
     }
-    #playbutton{
-        height:10mm;
+
+    #play_button {
+        height: 10mm;
         width: 10mm;
         position: absolute;
-        left:950px;
-        top:23px;
+        left: 1800px;
+        top: 23px;
         /* text-align: center; */
+    }
+
+    #div_content {
+        border: 2px solid #000000;
+        background: #ffffffff;
+        color: rgb(0, 0, 0);
+        font-size: 8mm;
+        height: 50mm;
+        top: 23px;
+        border-radius: 25px;
     }
 </style>
 
 <body>
-    <h1>
-        <div id="div_title">&nbsp;&nbsp; RSS Ticker &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
-            <span id="title"></span>
-            <img src="run.jpg" id="playbutton" alt="run" onclick="change_state()" float="left" >
-        </div>
-    </h1>
-    <div>
-        <a href="http://www.runoob.com/" id="link">Continue reading</a><br>
-        <b>From:</b> <span id="description"></span><br>
-        <b>Message:</b> <span id="message"></span>
+    <div id="div_title">&nbsp;&nbsp; RSS Ticker &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="title"></span>
+        <img src="run.jpg" id="play_button" alt="run" onclick="change_button_state()" float="left">
+    </div><br><br>
+    <div id="div_content">
+        <br>
+        &nbsp; <a href="http://www.runoob.com/" id="link">Continue reading</a><br>
+        &nbsp; <b>From:</b> <span id="description"></span><br>
+        &nbsp; <b>Message:</b> <span id="message"></span><br>
     </div>
 
+
     <script>
-        if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        }
-        else {// code for IE6, IE5
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        xmlhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                xmlDoc = xmlhttp.responseText;
-                xmlDocJson = JSON.parse(xmlDoc);
-                // xmlDoc = xmlhttp.responseXML;
-                document.getElementById("title").innerHTML =
-                    xmlDocJson.channel.title;
-                    setlink = xmlDocJson.channel.link ;
-                document.getElementById("link").setAttribute("href",setlink);
-                document.getElementById("description").innerHTML =
-                    xmlDocJson.channel.description;
-                document.getElementById("message").innerHTML =
-                     xmlDocJson.channel.pubDate;
+        var button_state = 1;
+        var flag = 1;
+        var url = [
+            "http://flobe-online.de/xml-proxy.php?url=http://feeds.feedburner.com/HowToGeek",
+            "http://flobe-online.de/xml-proxy.php?url=https://www.technologyreview.com/stories.rss",
+            "http://flobe-online.de/xml-proxy.php?url=http://feeds.feedburner.com/Techcrunch/europe"
+        ];
+        url_init = "http://flobe-online.de/xml-proxy.php?url=http://feeds.feedburner.com/HowToGeek";
+        http_request(url_init);
+        //set the operation of button
+        function change_button_state() {
+            if (button_state == 1) {
+                document.getElementById("play_button").src = "stop.jpg";
+                myrefresh = setInterval(http_request, 3000);
+                return button_state = 0;
+            } else {
+                document.getElementById("play_button").src = "run.jpg";
+                clearInterval(myrefresh);
+                return button_state = 1;
             }
-        };
-        xmlhttp.open("GET", "http://flobe-online.de/xml-proxy.php?url=http://feeds.feedburner.com/HowToGeek", false);
-        xmlhttp.send();
+        }
 
+        function http_request() {
+            i = Math.ceil(Math.random() * 3);
+            if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp = new XMLHttpRequest();
+            }
+            else {// code for IE6, IE5
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    xmlDoc = xmlhttp.responseText;
+                    xmlDocJson = JSON.parse(xmlDoc);
+                    // xmlDoc = xmlhttp.responseXML;
+                    document.getElementById("title").innerHTML =
+                        xmlDocJson.channel.title;
+                    setlink = xmlDocJson.channel.link;
+                    document.getElementById("link").setAttribute("href", setlink);
+                    document.getElementById("description").innerHTML =
+                        xmlDocJson.channel.description;
+                    document.getElementById("message").innerHTML =
+                        xmlDocJson.channel.pubDate;
+                }
+            };
+            xmlhttp.open("GET", url[i], false);
+            xmlhttp.send();
+        }
     </script>
-
 </body>
 
 </html>

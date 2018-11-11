@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<style>
+    #div_title {
+        background: rgba(68, 127, 236, 0.986);
+        color: white;
+        font-size: 20;
+        /* text-align: center; */
+    }
+    #playbutton{
+        height:10mm;
+        width: 10mm;
+        position: absolute;
+        left:1800px;
+        top:23px;
+        /* text-align: center; */
+    }
+</style>
+
+<body>
+    <h1>
+        <div id="div_title">&nbsp;&nbsp; RSS Ticker &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+            <span id="title"></span>
+            <img src="run.jpg" id="playbutton" alt="run" onclick="change_state()" float="left" >
+        </div>
+    </h1>
+    <div>
+        <a href="http://www.runoob.com/" id="link">Continue reading</a><br>
+        <b>From:</b> <span id="description"></span><br>
+        <b>Message:</b> <span id="message"></span>
+    </div>
+
+    <script>
+        if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        }
+        else {// code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                xmlDoc = xmlhttp.responseText;
+                xmlDocJson = JSON.parse(xmlDoc);
+                // xmlDoc = xmlhttp.responseXML;
+                document.getElementById("title").innerHTML =
+                    xmlDocJson.channel.title;
+                    setlink = xmlDocJson.channel.link ;
+                document.getElementById("link").setAttribute("href",setlink);
+                document.getElementById("description").innerHTML =
+                    xmlDocJson.channel.description;
+                document.getElementById("message").innerHTML =
+                     xmlDocJson.channel.pubDate;
+            }
+        };
+        xmlhttp.open("GET", "http://flobe-online.de/xml-proxy.php?url=http://feeds.feedburner.com/HowToGeek", false);
+        xmlhttp.send();
+    </script>
+
+</body>
+
+</html>
