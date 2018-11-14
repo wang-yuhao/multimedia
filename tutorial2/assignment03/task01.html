@@ -12,16 +12,16 @@
         background: rgba(68, 127, 236, 0.986);
         color: white;
         font-size: 15mm;
-        height: 20mm;
+        height: 40mm;
         /* text-align: center; */
     }
 
     #play_button {
-        height: 10mm;
-        width: 10mm;
+        height: 15mm;
+        width: 15mm;
         position: absolute;
         left: 1800px;
-        top: 23px;
+        top: 15px;
         /* text-align: center; */
     }
 
@@ -29,9 +29,8 @@
         border: 2px solid #000000;
         background: #ffffffff;
         color: rgb(0, 0, 0);
-        font-size: 8mm;
-        height: 50mm;
-        top: 23px;
+        font-size: 5mm;
+        height: 30mm;
         border-radius: 25px;
     }
 </style>
@@ -40,12 +39,22 @@
     <div id="div_title">&nbsp;&nbsp; RSS Ticker &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <span id="title"></span>
         <img src="run.jpg" id="play_button" alt="run" onclick="change_button_state()" float="left">
-    </div><br><br>
-    <div id="div_content">
         <br>
-        &nbsp; <a href="http://www.runoob.com/" id="link">Continue reading</a><br>
-        &nbsp; <b>From:</b> <span id="description"></span><br>
-        &nbsp; <b>Message:</b> <span id="message"></span><br>
+        <div id="div_content">
+            &nbsp; &nbsp; <b>description:</b> <span id="description"></span><br>
+            &nbsp; &nbsp; <b>pubDate:</b> <span id="message"></span><br>
+            &nbsp; &nbsp; <a href="http://www.runoob.com/" id="link">Continue reading</a><br>
+            <!-- &nbsp; <img id="img01"><br> -->
+        </div>
+
+    </div><br><br>
+
+    <div id="div_content">
+        &nbsp; &nbsp; <b>content_title:</b> <span id="content_title"></span><br>
+        &nbsp; &nbsp; <b>content_pubDate:</b> <span id="content_pubDate"></span><br>
+        &nbsp; &nbsp; <b>content_description:</b> <span id="content_description"></span><br>
+        &nbsp; &nbsp; <a href="http://www.runoob.com/" id="content_link">Continue reading</a><br>
+        <!-- &nbsp; <img id="img01"><br> -->
     </div>
 
 
@@ -73,7 +82,7 @@
         }
 
         function http_request() {
-            i = Math.ceil(Math.random() * 3);
+            i = Math.ceil(Math.random() * 4);
             if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
                 xmlhttp = new XMLHttpRequest();
             }
@@ -93,6 +102,15 @@
                         xmlDocJson.channel.description;
                     document.getElementById("message").innerHTML =
                         xmlDocJson.channel.pubDate;
+                    document.getElementById("content_title").innerHTML = 
+                    xmlDocJson.channel.title;
+                    document.getElementById("content_pubDate").innerHTML = 
+                    xmlDocJson.channel.pubDate;
+                    document.getElementById("content_description").innerHTML = xmlDocJson.channel.item.content;
+                    setcontentlink = xmlDocJson.channel.link;
+                    document.getElementById("content_link").setAttribute("href", setcontentlink);
+                    // img01 = xmlDocJson.channel.img;
+                    // document.getElementById("link").setAttribute("href", setlink);
                 }
             };
             xmlhttp.open("GET", url[i], false);
@@ -101,4 +119,4 @@
     </script>
 </body>
 
-</html>
+</html>2
