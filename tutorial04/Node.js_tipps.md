@@ -19,3 +19,7 @@ input:sudo apt-get remove npm
 ## 4.test Node.js in Ubuntu
 input:node -v
 input:npm -v
+
+## 5.run Node.js in Ubuntu
+at first termianl move to target file's folder
+input:node target.js
