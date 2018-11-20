@@ -30,3 +30,7 @@ body,html{margin:auto;height:100%;}
 ## 2.make image on center
 attribute: text-align,position,left etc.
 eg：../tutorial1/assignment01/task01.html.
+
+
+## 3.when you using the API, must with APIkey!!
+the sportify's Apikey is: m-ulti-M-EDIA.
