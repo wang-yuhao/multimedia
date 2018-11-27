@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/yuhao/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly idealTree:prePrune 0318@1.0.0
+22 silly loadIdealTree Finishing
+23 silly currentTree 0318@1.0.0
+24 silly idealTree 0318@1.0.0
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 silly generateActionsToTake Finishing
+28 silly diffTrees action count 0
+29 silly decomposeActions action count 0
+30 silly executeActions Starting
+31 silly install executeActions
+32 silly doSerial global-install 0
+33 silly doParallel fetch 0
+34 verbose lock using /home/yuhao/.npm/_locks/staging-223a3f1292744628.lock for /home/yuhao/node_modules/.staging
+35 verbose unlock done using /home/yuhao/.npm/_locks/staging-223a3f1292744628.lock for /home/yuhao/node_modules/.staging
+36 silly rollbackFailedOptional Starting
+37 silly rollbackFailedOptional Finishing
+38 silly runTopLevelLifecycles Starting
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 warn 0318@1.0.0 No description
+42 warn 0318@1.0.0 No repository field.
+43 verbose stack Error: EACCES: permission denied, mkdir '/home/yuhao/node_modules/.staging'
+44 verbose cwd /home/yuhao/Workspace/multimedia/Node.js
+45 error Linux 4.15.0-39-generic
+46 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+47 error node v8.10.0
+48 error npm  v3.5.2
+49 error path /home/yuhao/node_modules/.staging
+50 error code EACCES
+51 error errno -13
+52 error syscall mkdir
+53 error Error: EACCES: permission denied, mkdir '/home/yuhao/node_modules/.staging'
+53 error  { Error: EACCES: permission denied, mkdir '/home/yuhao/node_modules/.staging'
+53 error   errno: -13,
+53 error   code: 'EACCES',
+53 error   syscall: 'mkdir',
+53 error   path: '/home/yuhao/node_modules/.staging' }
+54 error Please try running this command again as root/Administrator.
+55 verbose exit [ -13, true ]
