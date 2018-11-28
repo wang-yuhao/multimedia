@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Chrome",
             "sourceMaps":true,
-            "file":"${workspaceFolder}/tutorial2/assignment03/task01.html"
+            "file":"${workspaceFolder}/tutorial06/assignment06/slide-show.html"
         },
         {
             "type": "chrome",
