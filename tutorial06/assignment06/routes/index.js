@@ -1,9 +1,15 @@
 //expresss-demo.js file
 
 var express = require('express');
+var router = express.Router();
+
+
+
 var app = express();
 
-app.get('/',function(req,res){
+
+let imagedatabase = require('../public/imagedatabase');
+app.get('/slide-show',function(req,res){
     res.send('Hello Foolish');
 })
 
