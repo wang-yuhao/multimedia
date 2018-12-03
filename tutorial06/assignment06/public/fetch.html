@@ -17,12 +17,7 @@
 
 
     function test() {
-      fetch('http://127.0.0.1:3000/server.js', {
-        method: 'POST',
-        headers: myHeaders,
-        mode: 'cors',
-        cache: 'default'
-      }).then(response => response.json())
+      fetch('http://127.0.0.1:3000/server.js').then(response => response.json())
         .then(data => {
           // data就是我们请求的repos
           console.log(data[1].url);

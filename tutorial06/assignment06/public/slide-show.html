@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -174,12 +174,15 @@
             	// --- the REQUEST which LOADS THE IMAGES ---
             	fetch(`http://localhost:3000/images/${imageCategory ? imageCategory : ''}${queryParams}`).then(jsonResponse => {
             		jsonResponse.json().then(responseObject => {
+                        console.log(responseObject);
+                        console.log(responseObject.length);
             			document.getElementById('slideShowImages').innerHTML = '<div class="imageNumber"></div>';
             			for(let i = 0; i<responseObject.images.length; i++){  
             				const figure = document.createElement('figure');      				
 							figure.id = i;
 							figure.className = "slide";
-            				const newImage = document.createElement('img');            				
+                            const newImage = document.createElement('img'); 
+                            console.log(responseObject.images[i].url);           				
             				newImage.src = responseObject.images[i].url;
             				const figCaption = document.createElement('figcaption');
             				figCaption.innerHTML = `category: ${responseObject.images[i].categories.join(', ')}. location: ${responseObject.images[i].location}`;
@@ -192,7 +195,7 @@
             			}
             			showImage(0)
             		}).catch(jsonParseError => {
-            			console.error(jsonParseError);
+            			//console.error(jsonParseError);
             		})
             	}).catch(requestError => {
             		console.error(requestError);
