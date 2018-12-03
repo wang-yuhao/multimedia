@@ -1,0 +1,7 @@
+1.screen scraping referred to the practice of reading text data from a computer display terminal's screen. This could be the simple cases where the controlling program navigates through the user interface, or more complex scenarios where the controlling program is entering data into an interface meant to be used by a human.
+
+2. 
+1)robotic process automation software;
+2)investment banks, wrote applications to capture and convert this character data as numeric data for inclusion into calculations for trading decisions without re-keying the data.
+
+3.No
