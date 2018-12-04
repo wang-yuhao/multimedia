@@ -11,6 +11,7 @@ var auth = require('./routes/auth');
 // ******************************************************
 // ***
 // TODO: require the shoot module.
+var shoot = require('./routes/shoot')
 // ***
 // ******************************************************
 
@@ -51,6 +52,18 @@ app.use('/auth', auth);
 // ******************************************************
 // ***
 // TODO: insert add the router of the shoot module (just like auth).
+
+var urlJson=[{
+  "status": "ok",
+  "message": "re-used screenshot",
+  "path": "/shoot/screenshots/testde.png",
+  "responseTime": 0,
+ }];
+app.use('/shoot',shoot);
+app.post('/shoot/screenshots/create',function(req,res){
+  res.send(urlJson);
+  console.log("!!");
+})
 // ***
 // ******************************************************
 
@@ -89,5 +102,8 @@ app.use(function(err, req, res, next) {
   });
 });
 
+// app.listen(3000, function() {   //监听http://127.0.0.1:3000端口
+//   console.log("server start");
+// });
 
 module.exports = app;
