@@ -42,8 +42,9 @@
   xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
       console.log('服务器响应成功');
-      document.getElementById("result").src=xmlhttp.responseText[1].path;
-      console.log(xmlhttp.responseText);
+      json1 = JSON.parse(xmlhttp.responseText)
+      document.getElementById("result").src=json1.image[0].path;
+      console.log(json1.image[0].path);
     }
   }
   url = "http://127.0.0.1:3000/";

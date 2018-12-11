@@ -53,12 +53,12 @@ app.use('/auth', auth);
 // ***
 // TODO: insert add the router of the shoot module (just like auth).
 
-var urlJson={
+var urlJson={image:[{
   "status": "ok",
   "message": "re-used screenshot",
-  "path": "/shoot/screenshots/testde.png",
+  "path": "/shoot/screenshots/googlede.png",
   "responseTime": 0,
- };
+ }]};
 app.use('/shoot',shoot);
 app.post('/shoot/screenshots/create',function(req,res){
   res.send(JSON.stringify(urlJson));
