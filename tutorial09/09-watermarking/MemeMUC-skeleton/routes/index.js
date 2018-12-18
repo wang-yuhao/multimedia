@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 const Jimp = require('jimp');
 const path = require('path');
+var fs = require('fs');
 
 // Constants
 const FONT_PATH = path.join(__dirname, '..', 'public', 'impact.fnt');
@@ -30,6 +31,24 @@ router.get('/memes', (req, res) => {
   })));
 });
 
+router.get('/memes/:key/thumb',(req,res) => {
+  const imageName = IMAGES[req.params['key']];
+  console.log(imageName);
+  if(!imageName){
+    return next(); 
+  }
+  const imagePath = path.join(IMAGE_BASE_PATH,imageName);
+  const imageOutPath = path.join(IMAGE_BASE_PATH,`${path.basename(imageName).split('.')[0]}_out${path.extname(imageName)}`);
+  console.log(imageOutPath);
+  if(fs.existsSync(imageOutPath)){
+    res.sendFile(imageOutPath);
+  }else{
+    Jimp.read(imagePath)
+      .then((img) => img.scale(0.25))
+      .then((img) => img.writeAsync(imageOutPath))
+      .then(() => res.sendFile(imageOutPath));
+  }
+})
 /**
  * /memes/:key - Returns the image corresponding with a specified key, as generated meme
  * Parameters for the meme are passed as query parameters:
@@ -75,13 +94,13 @@ router.get('/memes/:key', async (req, res, next) => {
 
       const upperCaption = {
         text: text || '',
-        x: (image.width - Jimp.measureText(front,text || '')) / 2 + (parseInt(x) || 0),
+        x: (image.width - Jimp.measureText(font,text || '')) / 2 + (parseInt(x) || 0),
         y: 50 + (parseInt(y) || 0),
       };
 
       const lowerCaption = {
         text:text2 || '',
-        x: (image.width - Jimp.measureText(front, text2 || '')) / 2 + (parseInt(x2) || 0),
+        x: (image.width - Jimp.measureText(font, text2 || '')) / 2 + (parseInt(x2) || 0),
         y: (image.height - Jimp.measureTextHeight(font,text2 || '') - 50) + (parseInt(y2) || 0),
       };
 
