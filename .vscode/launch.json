@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Chrome",
             "sourceMaps":true,
-            "file":"${workspaceFolder}/tutorial07/assignment07/skeleton/ScreenshotApp/shoot/index.html"
+            "file":"${workspaceFolder}/tutorial09/08-nodejs-mongodb/breakout-solution/public/index.html"
         },
         {
             "type": "chrome",
