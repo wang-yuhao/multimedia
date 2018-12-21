@@ -47,6 +47,7 @@ router.get('/updatepopularity', (req,res) => {
    });
 });
 
+//have to throughout index.html to get searchname server.
 router.post('/searchname',multipartMiddleware, (req,res) => {
     console.log(req.body);
     const db = req.db;

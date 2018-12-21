@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form action="http://127.0.0.1:3000/music/searchname" method="POST" id="keyWord" name="track_name" type="submit">
+            <input type="text" name="fname" /><br>
+        </form>
+        <button type="submit" form="keyWord" value="Search">Search</button>
+        <p id="search_result"></p>
+        
+        <script>
+            function searchname(){
+                var search_name = document.getElementById("keyWord").value;
+                console.log(search_name);
+                console.log(JSON.stringify(search_name));
+                var key_word = {keyword: search_name};
+                console.log(key_word);
+                fetch('http://127.0.0.1:3000/music/searchname',
+                    {
+                        headers:{
+                            'Content-Type':'application/json'
+                        },
+                        method:"POST",
+                        body: JSON.stringify(key_word),
+                        mode:'no-cors'
+                    })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    document.getElementById("search_result").innerHTML = data;
+                })
+            }
+          
+        </script>
+        
+    </body>
+
+</html>

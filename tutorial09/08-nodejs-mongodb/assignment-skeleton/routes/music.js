@@ -71,5 +71,26 @@ router.post('/updatepopularity', (req,res) => {
 });
 
 
+//have to throughout index.html to get searchname server.
+router.post('/searchname',multipartMiddleware, (req,res) => {
+    console.log(req.body);
+    const db = req.db;
+    const tracks = db.get('tracks');
+ 
+   // const trackname = req.query.trackname;
+   const trackname = req.body.fname;
+   //const trackname = "Pray For The Wicked";
+    console.log(trackname);
+ 
+    tracks.find({$or: [{ 'album.name': trackname},{name: trackname}]})
+        .then(docs => {
+            console.log(docs);
+        res.send(JSON.stringify(docs));
+       // res.render('music', {tracks: docs});
+    }).catch(e => {
+        console.error(e);
+        res.status(500).send();
+    });
+ });
 
 module.exports = router;
