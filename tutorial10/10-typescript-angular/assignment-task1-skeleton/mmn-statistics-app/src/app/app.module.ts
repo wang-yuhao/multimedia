@@ -5,7 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MmnStatisticsComponent } from './mmn-statistics.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCheckboxModule,MatInputModule, MatTableModule, MatPaginatorModule, MatSortModule, MatNativeDateModule} from '@angular/material';
+import {MatButtonModule, MatCheckboxModule,MatInputModule, MatTableModule, MatPaginatorModule, 
+        MatSortModule, MatNativeDateModule} from '@angular/material';
 import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
@@ -19,7 +20,8 @@ import {MatSelectModule} from '@angular/material/select';
     ChartsModule,
     BrowserAnimationsModule,
     MatSelectModule,
-    MatButtonModule, MatCheckboxModule, MatInputModule, MatTableModule, MatPaginatorModule, MatSortModule, MatNativeDateModule
+    MatButtonModule, MatCheckboxModule, MatInputModule, MatTableModule, MatPaginatorModule, 
+    MatSortModule, MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
