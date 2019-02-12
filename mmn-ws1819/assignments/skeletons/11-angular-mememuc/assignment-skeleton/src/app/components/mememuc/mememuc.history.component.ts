@@ -42,10 +42,7 @@ export class MemeMUCHistoryComponent {
     this.messageEvent.emit(savedMemes[0])
   }
   // @Output() public selectBaseImageChange = new EventEmitter();
-  
   // public change(userName: string) {
   //   this.selectBaseImageChange.emit(this.selectBaseImage);
   // }
- 
-
 }
