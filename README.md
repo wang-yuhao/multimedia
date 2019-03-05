@@ -6,6 +6,7 @@ Open Terminal.
 Change the current working directory to your local project.
 
 Check out the branch you wish to merge to. Usually, you will merge into master.
+<<<<<<< HEAD
 
 $ git checkout master
 Pull the desired branch from the upstream repository. This method will retain the commit history without modification.
@@ -22,3 +23,5 @@ Push the merge to your GitHub repository.
 
 $ git push origin master
 
+=======
+>>>>>>> 78042d310447f20e6f132a975d965c2f3f7fe256
