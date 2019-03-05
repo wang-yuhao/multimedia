@@ -1,7 +1,5 @@
 # multimedia
 
-Merge test file
-
 If there are conflicts, resolve them. For more information, see "Addressing merge conflicts".
 
 Commit the merge.
