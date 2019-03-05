@@ -1,6 +1,7 @@
 If you don't have push (write) access to an upstream repository, then you can pull commits from that repository into your own fork.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Open Terminal.
 
 Change the current working directory to your local project.
@@ -13,12 +14,12 @@ Pull the desired branch from the upstream repository. This method will retain th
 
 $ git pull https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git BRANCH_NAME
 If there are conflicts, resolve them. For more information, see "Addressing merge conflicts".
+=======
+>>>>>>> 002cf4e642ccf9cf4ab2a9a69a27c36f3b602a31
 
 Commit the merge.
 
 Review the changes and ensure they are satisfactory.
-<<<<<<< HEAD
-
 Push the merge to your GitHub repository.
 
 $ git push origin master
