@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Breakout 01: post function</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<form>
+    <input type="text" placeholder="username" id="user">
+    <button type="submit" id="subm">Go!</button>
+</form>
+<div id="output"></div>
+
+<script>
+    function urlPost(url,callback,params){
+        var req = new XMLHttpRequest();
+        req.open('POST', url);
+        req.setRequestHeader('Content-type', 'application/json');
+        req.onreadystatechange = function(){
+            if(req.readyState === 4){
+                callback(JSON.parse(req.responseText));
+            }
+        };
+        req.send(params);
+    }
+
+  var form = document.querySelector('form');
+  var userInput = document.getElementById('user');
+  var output = document.querySelector('#output');
+
+
+    form.addEventListener('submit', function(e){
+        var outputText;
+        e.preventDefault();
+
+        var outputText = JSON.stringify({user: userInput.value});
+        urlPost('http://httpbin.org/post',function(res){
+            output.innerHTML = res.json.user;
+        },outputText)
+
+    });
+
+</script>
+
+</body>
+</html>
